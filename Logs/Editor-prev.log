@@ -1,52 +1,67 @@
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 60000)
-VBCSCompiler prewarm took 18.55 ms
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 3740)
+VBCSCompiler prewarm took 24.38 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2026-10-08T15:28:06.8786289Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15982 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald" at "2026-10-08T18:48:15.6846144Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32354 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
-System  architecture: arm64
+System  architecture: x64
 Process architecture: x64
-Date: 2026-10-08T15:28:06Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29440, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-10-08T18:48:15Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12864, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              336e40299e3744258a5efb51f1a8ce2e
-  Correlation Id:          a77b774013deb5ea865fb00302949f5f
-  External correlation Id: 376327250324912367
-  Machine Id:              nlfJxYq4wIhTGXTPZS46yRh4VDQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2026-10-08T15:28:06.9203695Z"
+  Session Id:              9b3af667d6f5476b80ad0d4f1b97660a
+  Correlation Id:          e094dd2b67e7841d493731394d4ac67d
+  External correlation Id: 1324501993001767167
+  Machine Id:              YC57VrnMdSlLcgYIRA6wC7iBcYo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Emerald" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald-notifications" at "2026-10-08T18:48:15.7502788Z"
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token CYmAMLNvIE...
+[Licensing::Module] Successfully updated the access token YiZdgCsVHC...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 2475818496883-UnityPersXXXX
+  Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475579058786-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Licensing::Module] License group:
+  Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475579058786-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 0.10s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
 -projectpath
-C:\Users\ethan\Bird-O
+C:\Users\Emerald\Documents\GitHub\Bird-O
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-ethan
+LicenseClient-Emerald
 -hubSessionId
-a78c0fec-e869-43d0-9fdc-c58648514c05
+c4d9b704-acf7-4bdd-8198-d64c7538e761
 -accessToken
-CYmAMLNvIE0UEoq4ZHzwdPzsC_tMr7NL4wU7s9GuAf0002f
-Successfully changed project path to: C:\Users\ethan\Bird-O
-C:/Users/ethan/Bird-O
+YiZdgCsVHCcCr0MJdYsmP9mAwc2rdhttdSqJXX-z8rw002f
+Successfully changed project path to: C:\Users\Emerald\Documents\GitHub\Bird-O
+C:/Users/Emerald/Documents/GitHub/Bird-O
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -84,1350 +99,127 @@ C:/Users/ethan/Bird-O
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [77600]  Target information:
+Player connection [12456]  Target information:
 
-Player connection [77600]  * "[IP] 192.168.88.146 [Port] 55504 [Flags] 2 [Guid] 1093224446 [EditorId] 1093224446 [Version] 1048832 [Id] WindowsEditor(7,EthanArizaYOGA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12456]  * "[IP] 192.168.96.27 [Port] 55504 [Flags] 2 [Guid] 3429575372 [EditorId] 3429575372 [Version] 1048832 [Id] WindowsEditor(7,SB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [77600] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [77600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12456] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12456] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-79892" after 0.1 seconds.
+[Package Manager] Connected to IPC stream "Upm-12460" after 0.2 seconds.
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475579058786-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: 0e8100372310b0e729b50d4fbb3770e5
+  - Resource namespace: 6b676b4b2de49fd1b16823958048f91d
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: false
 Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
-Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/ethan/Bird-O[Physics::Module] Selected backend.
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Emerald/Documents/GitHub/Bird-O[Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 Unity Data Store running and initialised
-Refreshing native plugins compatible for Editor in 3.85 ms, found 0 plugins.
 Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ethan/Bird-O/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Emerald/Documents/GitHub/Bird-O/Assets
 GfxDevice: creating device client; kGfxThreadingModeThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Qualcomm(R) Adreno(TM) X1-85 GPU (ID=0x36334330)
-    Vendor:   Qualcomm
-    VRAM:     7991 MB
-    Driver:   31.0.128.0
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5982 MB
+    Driver:   31.0.15.3892
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004246 seconds.
+Registered in 0.004828 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.662 seconds
-Domain Reload Profiling: 2640ms
-	BeginReloadAssembly (227ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (207ms)
-		TypeCache.Refresh (328ms)
-			TypeCache.ScanAssembly (310ms)
-		AnalyzeDomain (1ms)
-	FinalizeReload (1665ms)
+- Finished resetting the current domain, in  1.627 seconds
+Domain Reload Profiling: 2524ms
+	BeginReloadAssembly (211ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (205ms)
+		TypeCache.Refresh (352ms)
+			TypeCache.ScanAssembly (327ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1631ms)
 		SetupLoadedEditorAssemblies (0ms)
 			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (230ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (700ms)
-[Licensing::Client] Successfully resolved entitlement details
-Application.AssetDatabase Initial Refresh Start
-[Package Manager] Restoring resolved packages state from cache
-[Licensing::Client] Successfully resolved entitlement details
-[Package Manager] Registered 83 packages:
-  Packages from [https://packages.unity.com]:
-    com.unity.2d.animation@16.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.animation@147f6a6d9e7f)
-    com.unity.2d.aseprite@6.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.aseprite@ab909e3e9b5f)
-    com.unity.2d.psdimporter@15.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.psdimporter@3ef8178676f6)
-    com.unity.2d.spriteshape@16.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.spriteshape@42798c9d35d3)
-    com.unity.2d.tilemap.extras@9.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tilemap.extras@598e8b65eaae)
-    com.unity.2d.tooling@4.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tooling@92c2769ac09c)
-    com.unity.ai.navigation@2.0.14 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
-    com.unity.analytics@3.8.2 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.analytics@c9d14a6bdec6)
-    com.unity.collab-proxy@2.13.6 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
-    com.unity.ide.rider@3.0.38 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
-    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
-    com.unity.inputsystem@1.20.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
-    com.unity.learn.iet-framework@6.0.7 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.learn.iet-framework@96330db47073)
-    com.unity.microsoft.gdk@1.7.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk@3b45a9994164)
-    com.unity.microsoft.gdk.tools@1.7.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk.tools@d61763b7f228)
-    com.unity.pipeline@0.7.0-exp.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.pipeline@ab05e9cd7f74)
-    com.unity.purchasing@5.4.3 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.purchasing@c771cfd27c96)
-    com.unity.visualscripting@1.9.12 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
-    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
-    com.unity.services.core@1.18.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.services.core@3464cb68d709)
-    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
-    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
-    com.unity.microsoft.gdk.discovery@1.3.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk.discovery@9c2d1c88cf7f)
-    com.unity.settings-manager@2.1.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
-    com.unity.services.analytics@6.3.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.services.analytics@cde4e6cf92f9)
-    com.unity.2d.common@15.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.common@b779c433ed47)
-    com.unity.searcher@4.9.5 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.searcher@a463122f2c00)
-    com.unity.profiling.core@1.0.3 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
-  Built-in packages:
-    com.unity.2d.sprite@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
-    com.unity.2d.tilemap@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tilemap@639ca1d99254)
-    com.unity.multiplayer.center@2.0.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.multiplayer.center@549886182930)
-    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
-    com.unity.test-framework@1.8.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
-    com.unity.timeline@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
-    com.unity.ugui@2.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ugui@23caec89ae27)
-    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tetgen@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.tetgen)
-    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.timelinefoundation)
-    com.unity.modules.ui@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.ext.nunit@2.1.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
-    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
-    com.unity.shadergraph@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.shadergraph@ef6135652377)
-    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
-    com.unity.editorcoroutines@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
-    com.unity.mathematics@1.4.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
-    com.unity.collections@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.collections@10fff0607388)
-    com.unity.graph-authoring@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
-    com.unity.burst@2.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.burst@626e66ab421b)
-    com.unity.test-framework.performance@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
-[Package Manager] com.unity.analytics is deprecated: This package is deprecated and won't be compatible with future Unity versions. It will only receive critical updates, with no new features or bug fixes. Migrate to Unity Analytics: https://docs.unity.com/en-us/analytics
-[Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.03 seconds
-Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/ethan/Bird-O
-warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
-warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 1s302ms
-[1415/1872  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (1.06 seconds), 1 items updated, 1872 evaluated
-AssetDatabase: script compilation time: 4.945917s
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 32.34 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Start HTTP server: port:7800
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  2.891 seconds
-Domain Reload Profiling: 5277ms
-	BeginReloadAssembly (545ms)
-		DisableScriptedObjects (58ms)
-		CreateAndSetChildDomain (196ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (1654ms)
-		LoadAssemblies (865ms)
-		TypeCache.Refresh (436ms)
-			TypeCache.ScanAssembly (412ms)
-		AnalyzeDomain (179ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2894ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (5ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (226ms)
-			ProcessInitializeOnLoadAttributes (1545ms)
-			ProcessInitializeOnLoadMethodAttributes (548ms)
-			AfterProcessingInitializeOnLoad (32ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (49ms)
-Starting new worker id: 0 with log in C:/Users/ethan/Bird-O/Logs/AssetImportWorkerHW0.log
-
-Asset Pipeline Refresh (id=6fd230d782441b74da542c38725d7bc9): Total: 12.539 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=4740 ms
-		Asset DB Callback time: managed=92 ms, native=36 ms
-		Scripting: domain reloads=1, domain reload time=2578 ms, compile time=4950 ms, other=141 ms
-		Project Asset Count: scripts=2377, non-scripts=3792
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 39.418ms
-	ApplyChangesToAssetFolders: 1.151ms
-	Scan: 601.142ms
-	Collect global state as custom dependencies: 43.018ms
-	CategorizeScriptCompilationAssets: 153.917ms
-	ProcessAssetsWithTransientArtifactChanges: 184.054ms
-	CategorizeAssets: 308.831ms
-	CompileScripts: 4950.132ms
-	ImportOutOfDateAssets: 2976.960ms (2951.814ms without children)
-		UnloadImportedAssets: 0.998ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.608ms
-		ImportSchedulerStart: 22.478ms
-	PostProcessAllAssets: 92.488ms
-		MonoPostProcessAllAssets: 92.134ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 33.348ms
-			SyncVS.PostprocessSyncProject 19.938ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.959ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.378ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.782ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.545ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.829ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.523ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.420ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.369ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.284ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.264ms
-			AssetPostprocessorProxy.OnPostprocessAllAssets 0.234ms
-	UnloadStreamsBegin: 3.789ms
-	PersistCurrentRevisions: 0.192ms
-	GenerateScriptTypeHashes: 4.304ms
-	GenerateScriptTypeSerializationHashes: 7.952ms
-	Untracked: 3176.424ms
-
-Application.AssetDatabase Initial Refresh End
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Scanning for USB devices : 3.232ms
-Initializing Unity extensions:
-Worker ready: AssetImportWorkerHW0 0
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Bird-O
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            85.605 ms
-	Integration:            382.456 ms
-	Integration of assets:  5.397 ms
-	Thread Wait Time:       0.153 ms
-	Total Operation Time:   473.611 ms
-Unloading 10102 unused Assets / (13.5 MB). Loaded Objects now: 11179.
-Memory consumption went from 0.51 GB to 0.50 GB.
-Total: 537.404500 ms (FindLiveObjects: 4.095400 ms CreateObjectMapping: 0.718200 ms MarkObjects: 517.785800 ms  DeleteObjects: 14.065200 ms)
-
-[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-[LAYOUT] About to save layout C:\Users\ethan\Bird-O\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/ethan/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-[MODES] ModeService[default].InitializeCurrentMode
-[MODES] ModeService[default].RaiseModeChanged(default, default)
-This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
-<RI> Initializing input.
-Using Windows.Gaming.Input
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
-<RI> Input initialized.
-[Project] Loading completed in 35.275 seconds
-	Project init time: 				24.390 seconds
-		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.146 seconds
-		Asset Database init time: 		1.541 seconds
-		Global illumination init time: 	0.094 seconds
-		Assemblies load time: 			2.715 seconds
-		Unity extensions init time: 	0.098 seconds
-		Asset Database refresh time: 	12.542 seconds
-	Scene opening time: 			7.705 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791473322108,"processId":79892,"projectLoad":35.2751149,"projectInit":24.3898583,"templateInit":0.0,"packageManagerInit":0.145675,"assetDatabaseInit":1.5405029,"globalIlluminationInit":0.0936073,"assembliesLoad":2.7152158,"unityExtensionsInit":0.0983264,"assetDatabaseRefresh":12.5415658,"sceneOpening":7.7052213}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791473322109,"processId":79892,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=c38d16c9b41d4a24995bf3c9f4e639f9): Total: 0.118 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
-Reloading assemblies due to reload request.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 25.98 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Start HTTP server: port:7800
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  4.308 seconds
-Domain Reload Profiling: 6388ms
-	BeginReloadAssembly (1325ms)
-		DisableScriptedObjects (293ms)
-		CreateAndSetChildDomain (570ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (226ms)
-	LoadAllAssembliesAndSetupDomain (480ms)
-		LoadAssemblies (406ms)
-		TypeCache.Refresh (9ms)
-		AnalyzeDomain (25ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (4310ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (532ms)
-			ProcessInitializeOnLoadAttributes (1164ms)
-			ProcessInitializeOnLoadMethodAttributes (227ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (1546ms)
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21499 ms: Could not connect to server
-Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21527 ms: Could not connect to server
-No restricted APIs configured; Validation skipped.
-Checking 28 assemblies for restricted APIs found 0 usage(s) in 8 ms
-Refreshing native plugins compatible for Editor in 24.69 ms, found 6 plugins.
-
-Asset Pipeline Refresh (id=1c3c0c5b08ae7084da52b0d179aac6f3): Total: 9.947 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=5021 ms
-		Asset DB Callback time: managed=1696 ms, native=923 ms
-		Scripting: domain reloads=1, domain reload time=2300 ms, compile time=4 ms, other=0 ms
-		Project Asset Count: scripts=2377, non-scripts=3792
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 2.678ms
-	ApplyChangesToAssetFolders: 0.687ms
-	Collect global state as custom dependencies: 7.106ms
-	ProcessAssetsWithTransientArtifactChanges: 405.950ms
-	CategorizeAssets: 130.727ms
-	CompileScripts: 4.214ms
-	ImportOutOfDateAssets: 4370.283ms (4359.211ms without children)
-		CollectScriptTypesHashes: 3.467ms
-		ReloadNativeAssets: 1.840ms
-		UnloadImportedAssets: 5.762ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.533ms
-		ImportSchedulerStart: 1.860ms
-	PostProcessAllAssets: 2582.522ms
-		AssemblyValidation.PostprocessAllAssets 101.683ms
-		PostProcessCallbackCreateDeferredMaterials 67.662ms
-		PostprocessAssetsUpdateCachedIcon 31.664ms
-		SpriteAtlasDatabase.OnAssetPostprocessCallback 30.412ms
-		ShaderAssetModifiedCallback 20.755ms
-		ComputeShaderImportPostprocess 18.266ms
-		RaytracingShaderImportPostprocess 17.731ms
-		SpeedTreeImporter.PostprocessAllAssets 14.276ms
-		LocalizationDatabase.AssetDatabasePostprocessCallback 6.799ms
-		BlockShaderImporter.PostprocessAllAssets 6.176ms
-		XRBuildSystem.XRAssetImported 2.404ms
-		MonoPostProcessAllAssets: 1690.684ms
-			SyncVS.PostprocessSyncProject 671.146ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 290.383ms
-			AssetPostprocessor.OnPostprocessAllAssets 167.372ms
-			PostProcessor.OnPostprocessAllAssets 70.750ms
-			AssetChangedListener.OnPostprocessAllAssets 66.134ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 52.050ms
-			MaterialPostprocessor.OnPostprocessAllAssets 51.807ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 51.191ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 39.314ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 37.570ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 28.548ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 13.251ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 10.327ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 9.323ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.847ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.067ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.962ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.856ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.746ms
-			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 1.189ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.105ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.051ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.928ms
-			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 0.871ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.858ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.856ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.852ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.808ms
-			AssetProcessor.OnPostprocessAllAssets 0.801ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.535ms
-			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.371ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.355ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.346ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.325ms
-			AssetEvents.OnPostprocessAllAssets 0.304ms
-			AssetPostprocessorProxy.OnPostprocessAllAssets 0.261ms
-			PSDImportPostProcessor.OnPostprocessAllAssets 0.254ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.246ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.219ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.210ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.168ms
-			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.158ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.138ms
-	PostAssetChangesProfiler: 36.356ms
-	GatherAllCurrentPrimaryImportResultRevisions: 1.049ms
-	UnloadStreamsBegin: 4.895ms
-	PersistCurrentRevisions: 0.179ms
-	GenerateScriptTypeHashes: 7.070ms
-	GenerateScriptTypeSerializationHashes: 12.363ms
-	Untracked: 2382.678ms
-
-Created GICache directory at C:/Users/ethan/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.020s, timestamps: [35.459 - 35.480]
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.Tutorials.Editor.TutorialModalWindow.UpdateContent () [0x00018] in .\Library\PackageCache\com.unity.learn.iet-framework@96330db47073\Editor\Core\TutorialModalWindow.cs:217 
-  at Unity.Tutorials.Editor.TutorialModalWindow+<LoadContent>d__27.MoveNext () [0x00045] in .\Library\PackageCache\com.unity.learn.iet-framework@96330db47073\Editor\Core\TutorialModalWindow.cs:138 
-  at Unity.EditorCoroutines.Editor.EditorCoroutine+YieldProcessor.MoveNext (System.Collections.IEnumerator enumerator) [0x00092] in .\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a\Editor\EditorCoroutine.cs:159 
-  at Unity.EditorCoroutines.Editor.EditorCoroutine.ProcessIEnumeratorRecursive (System.Collections.IEnumerator enumerator) [0x0003a] in .\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a\Editor\EditorCoroutine.cs:229 
-  at Unity.EditorCoroutines.Editor.EditorCoroutine.MoveNext () [0x0003f] in .\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a\Editor\EditorCoroutine.cs:210 
-  at UnityEditor.EditorApplication.Internal_CallUpdateFunctions () [0x00029] in <2194b77af8ea43e69caba13ba778a69a>:0 
-UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
-
-(Filename: ./Library/PackageCache/com.unity.learn.iet-framework@96330db47073/Editor/Core/TutorialModalWindow.cs Line: 217)
-
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "CYmAMLNv"... (expires: 2026-10-08T04:30:14Z)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (799ms)
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475579058786-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Done resolving packages in 870.70 seconds
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21041 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21062 ms: Could not connect to server
-TrimDiskCacheJob: Current cache size 0mb
-Asset Pipeline Refresh (id=469309efebd4f6a4f9f581a6f6abaea2): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21034 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21055 ms: Could not connect to server
-Asset Pipeline Refresh (id=fac3f51b61764504c8c62ef9cde89d20): Total: 0.015 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: 3153d6803fda76a4dbd548d554adabd5 - Path: Assets/Resources/GDKEditionAutoGen' with importer (DefaultImporter)
-Imported 'GUID: 3153d6803fda76a4dbd548d554adabd5' -> (Import Result ID: 'a4deb812da632fcf7b481cb1ab5dc035') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=f02d172df9fccee97cd7f7c7e187338f DependenciesID=423be7a3ce5826ae720d7bb2bd5edd62 StaticDependenciesID=a2c0ea1bdc5453b1b76f1bb47d263538 
-Importing 'GUID: 040af70a5e3d9ac47a2074bbf4b426a6 - Path: Assets/Resources/GDKEditionAutoGen/GDKEdition.asset' with importer (NativeFormatImporter)
-Imported 'GUID: 040af70a5e3d9ac47a2074bbf4b426a6' -> (Import Result ID: '0bb2841dba132fcd878cbb488b748ded') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=018c5c91c95e99db4d65c7dddd8369ab DependenciesID=7b67e71c994c3e4437d3fcfbf236a73d StaticDependenciesID=c52683894c974f052dcd37efdb413d72 
-Refreshing native plugins compatible for Editor in 21.68 ms, found 6 plugins.
-Asset Pipeline Refresh (id=1124bef58a84362489bd1f4b8d6735ef): Total: 0.188 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=04692163b3991fe41b9e6e278f41e0a0): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.043019 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21091 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21028 ms: Could not connect to server
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            10.299 ms
-	Integration:            3061.031 ms
-	Integration of assets:  0.072 ms
-	Thread Wait Time:       0.006 ms
-	Total Operation Time:   3071.409 ms
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.unity.pipeline: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+  One or more packages could not be added to the local file system:
+    com.unity.purchasing: Cannot connect to 'download.packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+    com.unity.services.analytics: Cannot connect to 'download.packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+    com.unity.services.core: Cannot connect to 'download.packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
 
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
+# Unity Package Manager Error
 
-10
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.unity.pipeline: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+  One or more packages could not be added to the local file system:
+    com.unity.purchasing: Cannot conn...
 
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
+(For the full error message, see the editor log file located at [C:/Users/Emerald/Documents/GitHub/Bird-O/Logs/Editor.log])
 
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
 
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
+Click on Retry to relaunch Unity and reopen your project.
 
-20
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
+Click on Continue to launch Unity.  Some or all packages may not be imported which may cause compilation errors.
 
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
+| Retry | Continue | Quit |
 
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-30
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-40
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-50
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-60
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-70
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 40588 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-80
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21062 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21062 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-90
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-100
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Dead
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerBars:Update () (at Assets/Resources/HungerBar.cs:50)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 50)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at HungerBars.Update () [0x000e3] in C:\Users\ethan\Bird-O\Assets\Resources\HungerBar.cs:51 
-UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 51)
-
-Dead
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerBars:Update () (at Assets/Resources/HungerBar.cs:50)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 50)
-
-Refreshing native plugins compatible for Editor in 12.55 ms, found 6 plugins.
-Asset Pipeline Refresh (id=f754bd5450fd1d54d80b31195c90b2e9): Total: 0.177 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 8.46 ms, found 6 plugins.
-Asset Pipeline Refresh (id=28fc26cd3f9fcc84f88a8f696855d75f): Total: 0.087 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=46aae300acc55a845bca3b4ee3672eb5): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            7.974 ms
-	Integration:            58.673 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.023 ms
-	Total Operation Time:   66.674 ms
-Unloading 8789 unused Assets / (17.7 MB). Loaded Objects now: 12431.
-Memory consumption went from 0.75 GB to 0.73 GB.
-Total: 117.680800 ms (FindLiveObjects: 3.251700 ms CreateObjectMapping: 0.734800 ms MarkObjects: 75.330800 ms  DeleteObjects: 38.015100 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 42483 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21049 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 33125 ms: Could not connect to server
-Asset Pipeline Refresh (id=b078e207920ba6248ac6ec0a6bcb8dcb): Total: 0.023 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: 3153d6803fda76a4dbd548d554adabd5 - Path: Assets/Resources/GDKEditionAutoGen' with importer (DefaultImporter)
-Imported 'GUID: 3153d6803fda76a4dbd548d554adabd5' -> (Import Result ID: 'a4deb812da632fcf7b481cb1ab5dc035') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=f02d172df9fccee97cd7f7c7e187338f DependenciesID=423be7a3ce5826ae720d7bb2bd5edd62 StaticDependenciesID=a2c0ea1bdc5453b1b76f1bb47d263538 
-Refreshing native plugins compatible for Editor in 7.73 ms, found 6 plugins.
-Asset Pipeline Refresh (id=cf4ba011828e95342a6f6adc8f5fa7aa): Total: 0.150 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=838c3f61cf59e4048a037ae70e3d2920): Total: 0.010 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.016436 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.819 ms
-	Integration:            1293.720 ms
-	Integration of assets:  0.094 ms
-	Thread Wait Time:       -0.004 ms
-	Total Operation Time:   1297.629 ms
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-110
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:Update () (at Assets/Resources/HungerPickup.cs:22)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 22)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21035 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 43715 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21058 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21064 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Dead
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerBars:Update () (at Assets/Resources/HungerBar.cs:50)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 50)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at HungerBars.Update () [0x000e3] in C:\Users\ethan\Bird-O\Assets\Resources\HungerBar.cs:51 
-UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 51)
-
-Dead
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerBars:Update () (at Assets/Resources/HungerBar.cs:50)
-
-(Filename: Assets/Resources/HungerBar.cs Line: 50)
-
-Refreshing native plugins compatible for Editor in 10.13 ms, found 6 plugins.
-Asset Pipeline Refresh (id=77c27952c75ae2c488aee915a166412a): Total: 0.114 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 8.15 ms, found 6 plugins.
-Asset Pipeline Refresh (id=50bef11e7e9b5064f9f732757b3dfd5f): Total: 0.071 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=a332e345f01c28140ae94e6c3f6840e8): Total: 0.014 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.024 ms
-	Integration:            42.248 ms
-	Integration of assets:  0.013 ms
-	Thread Wait Time:       0.022 ms
-	Total Operation Time:   44.307 ms
-Unloading 73 unused Assets / (11.2 MB). Loaded Objects now: 12449.
-Memory consumption went from 0.74 GB to 0.73 GB.
-Total: 39.334300 ms (FindLiveObjects: 2.051400 ms CreateObjectMapping: 0.402700 ms MarkObjects: 36.498700 ms  DeleteObjects: 0.098200 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-Importing 'GUID: 3153d6803fda76a4dbd548d554adabd5 - Path: Assets/Resources/GDKEditionAutoGen' with importer (DefaultImporter)
-Imported 'GUID: 3153d6803fda76a4dbd548d554adabd5' -> (Import Result ID: 'a4deb812da632fcf7b481cb1ab5dc035') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f02d172df9fccee97cd7f7c7e187338f DependenciesID=423be7a3ce5826ae720d7bb2bd5edd62 StaticDependenciesID=a2c0ea1bdc5453b1b76f1bb47d263538 
-Refreshing native plugins compatible for Editor in 7.92 ms, found 6 plugins.
-Asset Pipeline Refresh (id=05f80e654af9ef245bdfa66a84360a23): Total: 0.095 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=efc5fb061455b3a428802d4be024fa51): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.011012 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.422 ms
-	Integration:            1245.666 ms
-	Integration of assets:  0.199 ms
-	Thread Wait Time:       0.023 ms
-	Total Operation Time:   1248.310 ms
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 53142 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Refreshing native plugins compatible for Editor in 17.74 ms, found 6 plugins.
-Asset Pipeline Refresh (id=a5f71164d8100214a972797709f29851): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 7.98 ms, found 6 plugins.
-Asset Pipeline Refresh (id=3f3056ae400dc2f4abab25ce71b8a364): Total: 0.077 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=22e0a2e844209584b89e33266bb60188): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.412 ms
-	Integration:            46.034 ms
-	Integration of assets:  0.011 ms
-	Thread Wait Time:       0.011 ms
-	Total Operation Time:   48.467 ms
-Unloading 73 unused Assets / (11.3 MB). Loaded Objects now: 12443.
-Memory consumption went from 0.74 GB to 0.73 GB.
-Total: 41.959400 ms (FindLiveObjects: 1.880500 ms CreateObjectMapping: 0.324700 ms MarkObjects: 39.352900 ms  DeleteObjects: 0.119200 ms)
-
-Importing 'GUID: 3153d6803fda76a4dbd548d554adabd5 - Path: Assets/Resources/GDKEditionAutoGen' with importer (DefaultImporter)
-Imported 'GUID: 3153d6803fda76a4dbd548d554adabd5' -> (Import Result ID: 'a4deb812da632fcf7b481cb1ab5dc035') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f02d172df9fccee97cd7f7c7e187338f DependenciesID=423be7a3ce5826ae720d7bb2bd5edd62 StaticDependenciesID=a2c0ea1bdc5453b1b76f1bb47d263538 
-Refreshing native plugins compatible for Editor in 8.01 ms, found 6 plugins.
-Asset Pipeline Refresh (id=61ae1490c46711140ad1180849fe2a0f): Total: 0.148 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=1686b5c391e789f43b7de5db8f5fa5cb): Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.012996 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.744 ms
-	Integration:            1251.206 ms
-	Integration of assets:  0.066 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   1255.030 ms
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21037 ms: Could not connect to server
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Refreshing native plugins compatible for Editor in 8.29 ms, found 6 plugins.
-Asset Pipeline Refresh (id=f84ca90dceb30964c8783ce1dc04810b): Total: 0.076 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 8.30 ms, found 6 plugins.
-Asset Pipeline Refresh (id=633fabe8460314b4b92eea2bbabd686c): Total: 0.072 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=03600ac57f9245046b84b2df504e9e8f): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.019 ms
-	Integration:            40.317 ms
-	Integration of assets:  0.008 ms
-	Thread Wait Time:       0.019 ms
-	Total Operation Time:   42.363 ms
-Unloading 73 unused Assets / (0.5 MB). Loaded Objects now: 12443.
-Memory consumption went from 0.74 GB to 0.74 GB.
-Total: 37.917500 ms (FindLiveObjects: 1.975600 ms CreateObjectMapping: 0.232700 ms MarkObjects: 35.186700 ms  DeleteObjects: 0.108000 ms)
-
-Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21046 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 24206 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 36140 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 43739 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21069 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 45474 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21037 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 32051 ms: Could not connect to server
-Curl error 28: Failed to connect to engine-data.services.api.unity.com port 443 after 21030 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 48365 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 163698 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 30513 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 42107 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21043 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 36293 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21042 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21099 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21093 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21065 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21049 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21055 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 23588 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21028 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21074 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21067 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21111 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21061 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 39911 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21051 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21100 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21061 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21046 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21031 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21040 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 23934 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21049 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21126 ms: Could not connect to server
-Scanning for USB devices : 2.039ms
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21106 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21092 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21078 ms: Could not connect to server
-Asset Pipeline Refresh (id=1593db5056715d14589e2b64d81a41bd): Total: 0.055 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 39598 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 38109 ms: Could not connect to server
-Asset Pipeline Refresh (id=2a38665c99b70df4a9f674dfbf69fa23): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 24198 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21049 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21088 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21054 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21100 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21038 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 23494 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21035 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21098 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21028 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21075 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21087 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 40063 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21063 ms: Could not connect to server
-Scanning for USB devices : 2.371ms
-Scanning for USB devices : 0.311ms
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21049 ms: Could not connect to server
-Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21095 ms: Could not connect to server
-Curl error 28: Connection timed out after 655579 milliseconds
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-[Licensing::Client] Successfully resolved entitlement details
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-Curl error 60: Cert verify failed. Certificate Common Name(CN) does not match with the expected CN. UnityTls error code: 7
-Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 32 ms: Could not connect to server
-Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
-MonoPathRemapper: Attempts to remap: 60585; Successful remaps: 30426
-Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Users\ethan\Bird-O\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/ethan/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-Pipeline Server stopped
-Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'ad6ca2034549a8dd6f88c2e2fb528c97') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1aedbe56ae62f321fe459982db2fa012 StaticDependenciesID=e9a43e809c5953780a851aff477bfce8 
-Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '3aedf6918cd46e1a0c631a375f9f23e3') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=4e60e4f38b61f90d2026e521b4fa048b StaticDependenciesID=b538517dbb2661f29314fd8c7fb3323f 
-Refreshing native plugins compatible for Editor in 16.78 ms, found 6 plugins.
-
-Asset Pipeline Refresh (id=f9708b0aad5fe524b8e1e03c2d1e80dd): Total: 0.319 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=2 (actual=2, local cache=0, cache server=0)
-		Asset DB Process Time: managed=3 ms, native=137 ms
-		Asset DB Callback time: managed=54 ms, native=123 ms
-		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
-		Project Asset Count: scripts=2377, non-scripts=3792
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 2
-	ApplyChangesToAssetFolders: 0.829ms
-	Scan: 43.319ms
-	Collect global state as custom dependencies: 1.484ms
-	CategorizeScriptCompilationAssets: 0.139ms
-	ProcessAssetsWithTransientArtifactChanges: 5.222ms
-	CategorizeAssets: 14.386ms
-	ImportOutOfDateAssets: 37.131ms (0.820ms without children)
-		ImportManagerImport: 27.986ms (2.300ms without children)
-			UpdateCategorizedAssets: 0.057ms
-		ReloadNativeAssets: 2.066ms
-		UnloadImportedAssets: 0.609ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.926ms
-		ImportSchedulerStart: 3.714ms
-	PostProcessAllAssets: 156.189ms
-		XRBuildSystem.XRAssetImported 100.041ms
-		AssemblyValidation.PostprocessAllAssets 0.127ms
-		MonoPostProcessAllAssets: 54.722ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 24.097ms
-			SyncVS.PostprocessSyncProject 10.708ms
-			AssetPostprocessor.OnPostprocessAllAssets 5.024ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.661ms
-			AssetChangedListener.OnPostprocessAllAssets 0.934ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.902ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.851ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.831ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.561ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.478ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.464ms
-			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.460ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.429ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.421ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.401ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.395ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.391ms
-			AssetPostprocessorProxy.OnPostprocessAllAssets 0.370ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.225ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.221ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.218ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.211ms
-			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 0.210ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.154ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.148ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.126ms
-			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.108ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.095ms
-			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.093ms
-			MaterialPostprocessor.OnPostprocessAllAssets 0.089ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.080ms
-			PostProcessor.OnPostprocessAllAssets 0.078ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.076ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.052ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.050ms
-	PostAssetChangesProfiler: 22.030ms
-	GatherAllCurrentPrimaryImportResultRevisions: 6.895ms
-	UnloadStreamsBegin: 0.148ms
-	PersistCurrentRevisions: 0.482ms
-	Untracked: 30.463ms
-
-Input System module state changed to: ShutdownInProgress.
-Input Polling Thread exited.
-Input System module state changed to: Shutdown.
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-ethan-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-ethan channel disconnected successfully.
-Lingering sessions upon destruction of worker manager
-Unity Data Store service was successfully shut down
-UDS shutting down local client system
-Shut down UDS service system complete
-AcceleratorClientConnectionCallback - disconnected - :0
-Cleanup mono
-CodeReloadManager destroyed
-abort_threads: Failed aborting id: 000000000000BBD0, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 000000000000BBD0, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 4596
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-[Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791479239349,"processId":79892,"allocatedMemory":20991981,"memoryLabels":[{"Default":241099},{"Permanent":15516},{"NewDelete":74393},{"Thread":4197944},{"Manager":820773},{"VertexData":8},{"Geometry":816},{"Shader":860051},{"Material":24},{"TextureCache":608},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":34912},{"Input":45280},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"MonoCode":704},{"ScriptingNativeRuntime":1381160},{"BaseObject":50512},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":7389},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":404321},{"StaticString":3808},{"Utility":2674474},{"Curl":48},{"PoolAlloc":2408},{"AI":80},{"TypeTree":17165},{"ScriptManager":18960},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7152},{"WebRequest":199056},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268180},{"EditorUtility":146548},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8906864},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36065},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 1
