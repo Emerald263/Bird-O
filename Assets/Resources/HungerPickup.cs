@@ -1,0 +1,40 @@
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class HungerPickup : MonoBehaviour
+
+{
+    
+    bool Eat;
+    
+    void Update(){ 
+       
+       
+     
+            if (Input.GetKeyDown(KeyCode.E)&& Eat)
+            { 
+              if (HungerBar.Hunger <= 100)
+                { 
+                     
+                
+               HungerBar.Hunger += 10 ;
+               Debug.Log(HungerBar.Hunger);
+               Destroy(gameObject);  
+                }
+            }
+    
+    }
+    
+    
+     private void OnTriggerEnter2D (Collider2D other)
+    { 
+        if (other.CompareTag("Player")){
+            Debug.Log("Hi");  
+            Eat = true;
+           
+        }
+    }
+    }
+
+

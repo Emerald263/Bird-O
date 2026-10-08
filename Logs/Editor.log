@@ -1,0 +1,578 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 81924)
+VBCSCompiler prewarm took 20.43 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2026-10-08T18:13:45.1419897Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15982 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: arm64
+Process architecture: x64
+Date: 2026-10-08T18:13:45Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29440, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              d5df2a432fdb49d2b3d9834c71131a5c
+  Correlation Id:          a77b774013deb5ea865fb00302949f5f
+  External correlation Id: 5082075118675952784
+  Machine Id:              nlfJxYq4wIhTGXTPZS46yRh4VDQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2026-10-08T18:13:45.1942142Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token CYmAMLNvIE...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475818496883-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+C:\Users\ethan\Bird-O
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-ethan
+-hubSessionId
+a78c0fec-e869-43d0-9fdc-c58648514c05
+-accessToken
+CYmAMLNvIE0UEoq4ZHzwdPzsC_tMr7NL4wU7s9GuAf0002f
+Successfully changed project path to: C:\Users\ethan\Bird-O
+C:/Users/ethan/Bird-O
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20700]  Target information:
+
+Player connection [20700]  * "[IP] 192.168.88.91 [Port] 55504 [Flags] 2 [Guid] 2368957764 [EditorId] 2368957764 [Version] 1048832 [Id] WindowsEditor(7,EthanArizaYOGA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-23004" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 0e8100372310b0e729b50d4fbb3770e5
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/ethan/Bird-O[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 4.83 ms, found 0 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/Bird-O/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Qualcomm(R) Adreno(TM) X1-85 GPU (ID=0x36334330)
+    Vendor:   Qualcomm
+    VRAM:     7991 MB
+    Driver:   31.0.128.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004730 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.680 seconds
+Domain Reload Profiling: 2659ms
+	BeginReloadAssembly (234ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (577ms)
+		LoadAssemblies (224ms)
+		TypeCache.Refresh (350ms)
+			TypeCache.ScanAssembly (305ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1683ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (667ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 83 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@16.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.animation@147f6a6d9e7f)
+    com.unity.2d.aseprite@6.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.psdimporter@15.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.psdimporter@3ef8178676f6)
+    com.unity.2d.spriteshape@16.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tilemap.extras@598e8b65eaae)
+    com.unity.2d.tooling@4.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tooling@92c2769ac09c)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.analytics@3.8.2 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.analytics@c9d14a6bdec6)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.learn.iet-framework@6.0.7 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.learn.iet-framework@96330db47073)
+    com.unity.microsoft.gdk@1.7.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk@3b45a9994164)
+    com.unity.microsoft.gdk.tools@1.7.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk.tools@d61763b7f228)
+    com.unity.pipeline@0.7.0-exp.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.pipeline@ab05e9cd7f74)
+    com.unity.purchasing@5.4.3 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.purchasing@c771cfd27c96)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.services.core@1.18.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.services.core@3464cb68d709)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.microsoft.gdk.discovery@1.3.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.microsoft.gdk.discovery@9c2d1c88cf7f)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.services.analytics@6.3.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.services.analytics@cde4e6cf92f9)
+    com.unity.2d.common@15.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.common@b779c433ed47)
+    com.unity.searcher@4.9.5 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.2d.tilemap@639ca1d99254)
+    com.unity.multiplayer.center@2.0.1 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.multiplayer.center@549886182930)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.editorcoroutines@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
+    com.unity.mathematics@1.4.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.collections@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\ethan\Bird-O\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Package Manager] com.unity.analytics is deprecated: This package is deprecated and won't be compatible with future Unity versions. It will only receive critical updates, with no new features or bug fixes. Migrate to Unity Analytics: https://docs.unity.com/en-us/analytics
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ethan/Bird-O
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 1s294ms
+[1415/1872  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.07 seconds), 1 items updated, 1872 evaluated
+AssetDatabase: script compilation time: 2.825028s
+Begin MonoManager ReloadAssembly
+Total cache size 159254040
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 37.13 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.773 seconds
+Domain Reload Profiling: 5311ms
+	BeginReloadAssembly (600ms)
+		DisableScriptedObjects (50ms)
+		CreateAndSetChildDomain (215ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (1726ms)
+		LoadAssemblies (932ms)
+		TypeCache.Refresh (459ms)
+			TypeCache.ScanAssembly (433ms)
+		AnalyzeDomain (186ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2776ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (230ms)
+			ProcessInitializeOnLoadAttributes (1519ms)
+			ProcessInitializeOnLoadMethodAttributes (495ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Starting new worker id: 0 with log in C:/Users/ethan/Bird-O/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=009cb4419f834ad48bcce569d7e0b28c): Total: 10.604 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4784 ms
+		Asset DB Callback time: managed=85 ms, native=41 ms
+		Scripting: domain reloads=1, domain reload time=2734 ms, compile time=2829 ms, other=129 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.158ms
+	InvokePackagesCallback: 44.837ms
+	ApplyChangesToAssetFolders: 1.065ms
+	Scan: 722.540ms
+	Collect global state as custom dependencies: 38.035ms
+	CategorizeScriptCompilationAssets: 131.013ms
+	ProcessAssetsWithTransientArtifactChanges: 155.083ms
+	CategorizeAssets: 321.385ms
+	CompileScripts: 2829.041ms
+	ImportOutOfDateAssets: 2908.635ms (2837.328ms without children)
+		ReloadNativeAssets: 0.062ms
+		UnloadImportedAssets: 0.993ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.766ms
+		ImportSchedulerStart: 68.473ms
+	PostProcessAllAssets: 85.403ms
+		MonoPostProcessAllAssets: 85.145ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 31.166ms
+			SyncVS.PostprocessSyncProject 20.787ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.516ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.273ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.859ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.586ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.961ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.458ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.387ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.336ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.284ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.266ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.236ms
+	UnloadStreamsBegin: 3.853ms
+	PersistCurrentRevisions: 0.204ms
+	GenerateScriptTypeHashes: 4.111ms
+	GenerateScriptTypeSerializationHashes: 7.606ms
+	Untracked: 3351.666ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 2.935ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Bird-O
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            65.782 ms
+	Integration:            163.211 ms
+	Integration of assets:  7.032 ms
+	Thread Wait Time:       0.108 ms
+	Total Operation Time:   236.132 ms
+Unloading 10102 unused Assets / (8.5 MB). Loaded Objects now: 11179.
+Memory consumption went from 0.51 GB to 0.50 GB.
+Total: 20.606000 ms (FindLiveObjects: 2.296900 ms CreateObjectMapping: 0.634200 ms MarkObjects: 10.782600 ms  DeleteObjects: 6.573500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\ethan\Bird-O\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ethan/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 21.647 seconds
+	Project init time: 				18.856 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.224 seconds
+		Asset Database init time: 		1.261 seconds
+		Global illumination init time: 	0.090 seconds
+		Assemblies load time: 			2.719 seconds
+		Unity extensions init time: 	0.119 seconds
+		Asset Database refresh time: 	10.606 seconds
+	Scene opening time: 			2.370 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791483246756,"processId":23004,"projectLoad":21.6470547,"projectInit":18.8558263,"templateInit":0.0,"packageManagerInit":0.2237817,"assetDatabaseInit":1.2608529,"globalIlluminationInit":0.0897282,"assembliesLoad":2.7191312,"unityExtensionsInit":0.1187505,"assetDatabaseRefresh":10.6055002,"sceneOpening":2.3700441}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791483246756,"processId":23004,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=7f82fc9a1fc30374d9c89ae431f0e0d5): Total: 0.114 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Reloading assemblies due to reload request.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.61 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.880 seconds
+Domain Reload Profiling: 5650ms
+	BeginReloadAssembly (1084ms)
+		DisableScriptedObjects (297ms)
+		CreateAndSetChildDomain (432ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (285ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (26ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3883ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (413ms)
+			ProcessInitializeOnLoadAttributes (1032ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1400ms)
+No restricted APIs configured; Validation skipped.
+Checking 28 assemblies for restricted APIs found 0 usage(s) in 8 ms
+Refreshing native plugins compatible for Editor in 11.91 ms, found 6 plugins.
+
+Asset Pipeline Refresh (id=48b5bbc4c222d0a4eb65c905637185e0): Total: 8.746 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4425 ms
+		Asset DB Callback time: managed=1585 ms, native=767 ms
+		Scripting: domain reloads=1, domain reload time=1964 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.616ms
+	ApplyChangesToAssetFolders: 0.386ms
+	Collect global state as custom dependencies: 7.919ms
+	ProcessAssetsWithTransientArtifactChanges: 337.837ms
+	CategorizeAssets: 96.368ms
+	CompileScripts: 2.907ms
+	ImportOutOfDateAssets: 3921.019ms (3912.772ms without children)
+		CollectScriptTypesHashes: 2.901ms
+		ReloadNativeAssets: 1.674ms
+		UnloadImportedAssets: 4.701ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.441ms
+		ImportSchedulerStart: 0.395ms
+	PostProcessAllAssets: 2330.278ms
+		AssemblyValidation.PostprocessAllAssets 67.244ms
+		PostProcessCallbackCreateDeferredMaterials 29.228ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 29.168ms
+		ShaderAssetModifiedCallback 18.570ms
+		ComputeShaderImportPostprocess 16.894ms
+		SpeedTreeImporter.PostprocessAllAssets 16.037ms
+		RaytracingShaderImportPostprocess 15.377ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 6.389ms
+		BlockShaderImporter.PostprocessAllAssets 6.108ms
+		XRBuildSystem.XRAssetImported 2.248ms
+		MonoPostProcessAllAssets: 1579.955ms
+			SyncVS.PostprocessSyncProject 586.486ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 287.152ms
+			AssetPostprocessor.OnPostprocessAllAssets 149.300ms
+			AssetChangedListener.OnPostprocessAllAssets 76.354ms
+			PostProcessor.OnPostprocessAllAssets 70.949ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 53.263ms
+			MaterialPostprocessor.OnPostprocessAllAssets 49.700ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 49.106ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 40.653ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 36.620ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 27.029ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.596ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 9.818ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 9.182ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.460ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.472ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.918ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.707ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.595ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.047ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.029ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.940ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.924ms
+			AssetProcessor.OnPostprocessAllAssets 0.903ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.794ms
+			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 0.788ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.785ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.782ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.720ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.504ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.371ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.352ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.346ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.342ms
+			AssetEvents.OnPostprocessAllAssets 0.296ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.263ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.254ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.204ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.199ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.169ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.169ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.146ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.118ms
+	PostAssetChangesProfiler: 21.899ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.322ms
+	UnloadStreamsBegin: 2.186ms
+	PersistCurrentRevisions: 0.171ms
+	GenerateScriptTypeHashes: 6.497ms
+	GenerateScriptTypeSerializationHashes: 11.619ms
+	Untracked: 2015.792ms
+
+Created GICache directory at C:/Users/ethan/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.029s, timestamps: [21.826 - 21.856]
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "CYmAMLNv"... (expires: 2026-10-08T04:30:14Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21041 ms: Could not connect to server
+Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21044 ms: Could not connect to server
+Curl error 35: Recv failure: Connection was reset
+TrimDiskCacheJob: Current cache size 0mb
+Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 21029 ms: Could not connect to server
+Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 22400 ms: Could not connect to server
+Asset Pipeline Refresh (id=68f865ed288f0e04f9c376ca537e504f): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 28: Failed to connect to cdp.cloud.unity3d.com port 443 after 41214 ms: Could not connect to server
+MonoPathRemapper: Attempts to remap: 59801; Successful remaps: 30426
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\ethan\Bird-O\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ethan/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Pipeline Server stopped
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'ad6ca2034549a8dd6f88c2e2fb528c97') in 0.019 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1aedbe56ae62f321fe459982db2fa012 StaticDependenciesID=e9a43e809c5953780a851aff477bfce8 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '3aedf6918cd46e1a0c631a375f9f23e3') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=4e60e4f38b61f90d2026e521b4fa048b StaticDependenciesID=b538517dbb2661f29314fd8c7fb3323f 
+Refreshing native plugins compatible for Editor in 30.96 ms, found 6 plugins.
+Asset Pipeline Refresh (id=b6fcac2977d2f8f499844298a3a3571e): Total: 0.147 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-ethan-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ethan channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000010208, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000011F60, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000135FC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000010208, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000011F60, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000135FC, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4560
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791483358978,"processId":23004,"allocatedMemory":20732517,"memoryLabels":[{"Default":214895},{"Permanent":15516},{"NewDelete":69105},{"Thread":4197984},{"Manager":820453},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":860051},{"Material":24},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16736},{"Input":45280},{"JobScheduler":256},{"TextLib":21550},{"Mono":48},{"MonoCode":192},{"ScriptingNativeRuntime":1327624},{"BaseObject":50512},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":7389},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":454058},{"StaticString":3808},{"Utility":2674474},{"Curl":48},{"PoolAlloc":2408},{"AI":80},{"TypeTree":17165},{"ScriptManager":18960},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":17693},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268096},{"EditorUtility":146102},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8878152},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36065},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
