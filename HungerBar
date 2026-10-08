@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+
 public class HungerBars : MonoBehaviour
-{
+{ 
     public Slider HungerSlider;
  
     public float Hunger;
     bool Eat;
     float maxHunger = 100f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool isDead;
+    public GameMangerScript gameManger;
     void Start()
     {
         Hunger = maxHunger;
@@ -42,9 +45,11 @@ public class HungerBars : MonoBehaviour
         }
 
 
-        if (Hunger <= 0)
+        if (Hunger <= 0 && !isDead) 
             {
-                Hunger = 0;
+                isDead = true; 
+                Debug.Log("Dead");
+                gameManger.gameOver();
             }
         }
        
@@ -53,4 +58,3 @@ public class HungerBars : MonoBehaviour
           
    
     }
-
