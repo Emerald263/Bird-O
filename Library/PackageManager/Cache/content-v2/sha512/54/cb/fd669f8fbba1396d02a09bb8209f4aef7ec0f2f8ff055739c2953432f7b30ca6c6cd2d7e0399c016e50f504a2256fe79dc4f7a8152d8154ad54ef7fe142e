@@ -1,0 +1,1 @@
+{"status":"Valid","reason":"Signature is ok","isLegacy":false,"attestation":{"version":1,"format":"archive","integrity":"sha256-DFgA7pK8jguyUgELxPcJWr2cNbc0ggEXhUlpiK1ahCs=","packageName":"com.unity.microsoft.gdk","packageVersion":"1.7.0","publishingChannel":"unity","entitlementKeys":[],"artifactType":"upmPackage"}}
