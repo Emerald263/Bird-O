@@ -1,23 +1,23 @@
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 2792)
-VBCSCompiler prewarm took 26.74 ms
-[Licensing::Module] Trying to connect to existing licensing client channel...
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 6520)
+VBCSCompiler prewarm took 27.70 ms
 Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald" at "2026-10-13T05:56:34.4281763Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32354 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald" at "2026-10-13T05:51:16.0629885Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-13T05:51:16Z
+Date: 2026-10-13T05:56:34Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17036, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              35a9fa99d4ea45d1afa1f9af3e39f671
+  Session Id:              7db4efa9f34640b5963cce6cbf29ea44
   Correlation Id:          624f858dd2e0e77b6069f63b52088a62
-  External correlation Id: 358190365121295964
+  External correlation Id: 8965239371672364358
   Machine Id:              YC57VrnMdSlLcgYIRA6wC7iBcYo=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Emerald" (connect: 0.00s, validation: 0.01s, handshake: 0.10s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald-notifications" at "2026-10-13T05:51:16.1657461Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Emerald" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Emerald-notifications" at "2026-10-13T05:56:34.5266504Z"
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated the access token RsTEjwCtdT...
 [Licensing::Client] Successfully resolved entitlement details
@@ -43,7 +43,7 @@ Date: 2026-10-13T05:51:16Z
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Module] Licensing Background thread has ended after 0.13s
+[Licensing::Module] Licensing Background thread has ended after 0.12s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
@@ -99,16 +99,16 @@ C:/Users/Emerald/Documents/GitHub/Bird-O
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [5912]  Target information:
+Player connection [13776]  Target information:
 
-Player connection [5912]  * "[IP] 192.168.8.74 [Port] 55504 [Flags] 2 [Guid] 2188544773 [EditorId] 2188544773 [Version] 1048832 [Id] WindowsEditor(7,SB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13776]  * "[IP] 192.168.8.74 [Port] 55504 [Flags] 2 [Guid] 2196876603 [EditorId] 2196876603 [Version] 1048832 [Id] WindowsEditor(7,SB3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5912] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5912] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13776] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-16956" after 0.6 seconds.
+[Package Manager] Connected to IPC stream "Upm-2776" after 0.6 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
@@ -137,7 +137,7 @@ Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Emeral
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 Unity Data Store running and initialised
-Refreshing native plugins compatible for Editor in 10.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 11.35 ms, found 0 plugins.
 Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
@@ -154,37 +154,37 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004411 seconds.
+Registered in 0.004638 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.737 seconds
-Domain Reload Profiling: 3035ms
-	BeginReloadAssembly (307ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (147ms)
-	LoadAllAssembliesAndSetupDomain (792ms)
-		LoadAssemblies (282ms)
-		TypeCache.Refresh (538ms)
-			TypeCache.ScanAssembly (506ms)
+- Finished resetting the current domain, in  1.761 seconds
+Domain Reload Profiling: 3386ms
+	BeginReloadAssembly (339ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (1013ms)
+		LoadAssemblies (313ms)
+		TypeCache.Refresh (757ms)
+			TypeCache.ScanAssembly (720ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (1741ms)
+	FinalizeReload (1763ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			BeforeProcessingInitializeOnLoad (285ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (620ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (251ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (613ms)
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
@@ -287,117 +287,116 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.test-framework.performance@6.6.0 (location: C:\Users\Emerald\Documents\GitHub\Bird-O\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
 [Package Manager] com.unity.analytics is deprecated: This package is deprecated and won't be compatible with future Unity versions. It will only receive critical updates, with no new features or bug fixes. Migrate to Unity Analytics: https://docs.unity.com/en-us/analytics
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.10 seconds
+[Package Manager] Done registering packages in 0.11 seconds
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/Emerald/Documents/GitHub/Bird-O
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 1s202ms
+ExitCode: 0 Duration: 0s891ms
 [1414/1871  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (1.12 seconds), 1 items updated, 1871 evaluated
-AssetDatabase: script compilation time: 3.324545s
+*** Tundra build success (0.82 seconds), 1 items updated, 1871 evaluated
+AssetDatabase: script compilation time: 2.681929s
 Begin MonoManager ReloadAssembly
 Total cache size 227229528
-Total cache size after purge 227229528, took 00:00:00.9461139
+Total cache size after purge 227229528, took 00:00:00.5650009
 Symbol file LoadedFromMemory is not a mono symbol file
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 22.52 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.13 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Start HTTP server: port:7800
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  3.457 seconds
-Domain Reload Profiling: 7245ms
-	BeginReloadAssembly (778ms)
-		DisableScriptedObjects (83ms)
-		CreateAndSetChildDomain (149ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (263ms)
-	LoadAllAssembliesAndSetupDomain (2675ms)
-		LoadAssemblies (1175ms)
-		TypeCache.Refresh (962ms)
-			TypeCache.ScanAssembly (922ms)
-		AnalyzeDomain (325ms)
-			BuildScriptInfoCaches (288ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (3459ms)
+- Finished resetting the current domain, in  3.504 seconds
+Domain Reload Profiling: 6213ms
+	BeginReloadAssembly (487ms)
+		DisableScriptedObjects (65ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (192ms)
+	LoadAllAssembliesAndSetupDomain (1979ms)
+		LoadAssemblies (916ms)
+		TypeCache.Refresh (631ms)
+			TypeCache.ScanAssembly (600ms)
+		AnalyzeDomain (283ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3506ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (6ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (281ms)
-			ProcessInitializeOnLoadAttributes (1960ms)
-			ProcessInitializeOnLoadMethodAttributes (615ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (53ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (1943ms)
+			ProcessInitializeOnLoadMethodAttributes (644ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
 Starting new worker id: 0 with log in C:/Users/Emerald/Documents/GitHub/Bird-O/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=441dada18f41bfb4eb2d12827e8b704d): Total: 13.179 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=b9c413f701ff95e46a549bf58e0ef83b): Total: 11.162 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=5241 ms
-		Asset DB Callback time: managed=113 ms, native=109 ms
-		Scripting: domain reloads=1, domain reload time=4109 ms, compile time=3330 ms, other=274 ms
+		Asset DB Process Time: managed=0 ms, native=5083 ms
+		Asset DB Callback time: managed=106 ms, native=116 ms
+		Scripting: domain reloads=1, domain reload time=2898 ms, compile time=2688 ms, other=268 ms
 		Project Asset Count: scripts=2377, non-scripts=3792
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 117.781ms
-	ApplyChangesToAssetFolders: 1.704ms
-	Scan: 422.566ms
-	Collect global state as custom dependencies: 50.593ms
-	CategorizeScriptCompilationAssets: 187.522ms
-	ProcessAssetsWithTransientArtifactChanges: 279.707ms
-	CategorizeAssets: 176.100ms
-	CompileScripts: 3330.387ms
-	ImportOutOfDateAssets: 3548.559ms (3525.067ms without children)
-		ReloadNativeAssets: 0.058ms
-		UnloadImportedAssets: 0.957ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.242ms
-		ImportSchedulerStart: 20.226ms
-	PostProcessAllAssets: 113.820ms
-		MonoPostProcessAllAssets: 113.716ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 54.404ms
-			SyncVS.PostprocessSyncProject 9.302ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.771ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.384ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 2.445ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.987ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.544ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.823ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.715ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.583ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.473ms
-			AssetPostprocessorProxy.OnPostprocessAllAssets 0.424ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.362ms
-	UnloadStreamsBegin: 4.041ms
-	PersistCurrentRevisions: 0.457ms
-	GenerateScriptTypeHashes: 5.902ms
-	GenerateScriptTypeSerializationHashes: 11.079ms
-	Untracked: 4934.092ms
+	InvokePackagesCallback: 121.101ms
+	ApplyChangesToAssetFolders: 1.355ms
+	Scan: 366.230ms
+	Collect global state as custom dependencies: 43.396ms
+	CategorizeScriptCompilationAssets: 188.762ms
+	ProcessAssetsWithTransientArtifactChanges: 251.024ms
+	CategorizeAssets: 201.202ms
+	CompileScripts: 2688.135ms
+	ImportOutOfDateAssets: 3598.545ms (3574.449ms without children)
+		ReloadNativeAssets: 0.074ms
+		UnloadImportedAssets: 1.401ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.655ms
+		ImportSchedulerStart: 19.957ms
+	PostProcessAllAssets: 106.425ms
+		MonoPostProcessAllAssets: 106.293ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 33.142ms
+			SyncVS.PostprocessSyncProject 10.358ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.334ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.085ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.063ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.910ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.219ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.803ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.531ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.528ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.369ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.356ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.349ms
+	UnloadStreamsBegin: 3.172ms
+	PersistCurrentRevisions: 0.572ms
+	GenerateScriptTypeHashes: 10.229ms
+	GenerateScriptTypeSerializationHashes: 20.464ms
+	Untracked: 3578.120ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Scanning for USB devices : 5.310ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 4.070ms
 Initializing Unity extensions:
-Worker ready: AssetImportWorkerHW0 0
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Bird-O
 Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            85.168 ms
-	Integration:            628.389 ms
-	Integration of assets:  5.687 ms
-	Thread Wait Time:       1.916 ms
-	Total Operation Time:   721.160 ms
-Unloading 10101 unused Assets / (8.1 MB). Loaded Objects now: 11178.
+	Deserialize:            61.600 ms
+	Integration:            199.794 ms
+	Integration of assets:  5.703 ms
+	Thread Wait Time:       0.370 ms
+	Total Operation Time:   267.467 ms
+Unloading 10101 unused Assets / (8.0 MB). Loaded Objects now: 11178.
 Memory consumption went from 0.52 GB to 0.51 GB.
-Total: 511.625500 ms (FindLiveObjects: 2.297500 ms CreateObjectMapping: 1.692700 ms MarkObjects: 499.303200 ms  DeleteObjects: 7.642700 ms)
+Total: 26.741400 ms (FindLiveObjects: 2.100400 ms CreateObjectMapping: 1.374100 ms MarkObjects: 14.161500 ms  DeleteObjects: 8.354600 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 [LAYOUT] About to save layout C:\Users\Emerald\Documents\GitHub\Bird-O\UserSettings\Layouts\default-6000.dwlt
@@ -408,447 +407,151 @@ This project uses Input Manager, which is marked for deprecation. To manage inpu
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-[Project] Loading completed in 41.946 seconds
-	Project init time: 				33.956 seconds
+[Project] Loading completed in 23.019 seconds
+	Project init time: 				19.946 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.628 seconds
-		Asset Database init time: 		0.921 seconds
-		Global illumination init time: 	0.006 seconds
-		Assemblies load time: 			3.130 seconds
-		Unity extensions init time: 	0.101 seconds
-		Asset Database refresh time: 	13.180 seconds
-	Scene opening time: 			7.541 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791870717962,"processId":16956,"projectLoad":41.9460985,"projectInit":33.9561076,"templateInit":0.0,"packageManagerInit":0.6283339,"assetDatabaseInit":0.9207168,"globalIlluminationInit":0.005924,"assembliesLoad":3.1304879,"unityExtensionsInit":0.1010509,"assetDatabaseRefresh":13.1798219,"sceneOpening":7.5409725}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791870717962,"processId":16956,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+		Package Manager init time: 		0.644 seconds
+		Asset Database init time: 		0.882 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			3.496 seconds
+		Unity extensions init time: 	0.087 seconds
+		Asset Database refresh time: 	11.162 seconds
+	Scene opening time: 			2.674 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791871017391,"processId":2776,"projectLoad":23.018851899999998,"projectInit":19.9455468,"templateInit":0.0,"packageManagerInit":0.6443195,"assetDatabaseInit":0.8816274,"globalIlluminationInit":0.0047069,"assembliesLoad":3.4957944,"unityExtensionsInit":0.0868308,"assetDatabaseRefresh":11.1620086,"sceneOpening":2.6742692}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791871017391,"processId":2776,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
 Reloading assemblies due to reload request.
 Reloading assemblies after forced synchronous recompile.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 20.21 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 19.51 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Start HTTP server: port:7800
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  5.908 seconds
-Domain Reload Profiling: 7908ms
-	BeginReloadAssembly (1175ms)
-		DisableScriptedObjects (292ms)
-		CreateAndSetChildDomain (462ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (219ms)
-	LoadAllAssembliesAndSetupDomain (550ms)
-		LoadAssemblies (380ms)
+- Finished resetting the current domain, in  5.888 seconds
+Domain Reload Profiling: 8135ms
+	BeginReloadAssembly (1294ms)
+		DisableScriptedObjects (362ms)
+		CreateAndSetChildDomain (446ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (207ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (377ms)
 		TypeCache.Refresh (17ms)
-		AnalyzeDomain (32ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (5910ms)
+		AnalyzeDomain (37ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (5890ms)
 		SetupLoadedEditorAssemblies (0ms)
 			LogAssemblyErrors (4ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (553ms)
-			ProcessInitializeOnLoadAttributes (2207ms)
-			ProcessInitializeOnLoadMethodAttributes (267ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (7ms)
-		AwakeInstancesAfterBackupRestoration (1809ms)
+			BeforeProcessingInitializeOnLoad (564ms)
+			ProcessInitializeOnLoadAttributes (1983ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1937ms)
 No restricted APIs configured; Validation skipped.
-Checking 28 assemblies for restricted APIs found 0 usage(s) in 7 ms
-Refreshing native plugins compatible for Editor in 23.34 ms, found 6 plugins.
+Checking 28 assemblies for restricted APIs found 0 usage(s) in 8 ms
+Refreshing native plugins compatible for Editor in 23.95 ms, found 6 plugins.
 
-Asset Pipeline Refresh (id=ef30f1d0b1762ff42855bd9a38a55a99): Total: 12.519 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+Asset Pipeline Refresh (id=39df7246ac12eeb4f9a21b75d075dc18): Total: 13.059 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=6880 ms
-		Asset DB Callback time: managed=2467 ms, native=1020 ms
-		Scripting: domain reloads=1, domain reload time=2146 ms, compile time=4 ms, other=0 ms
+		Asset DB Process Time: managed=0 ms, native=6864 ms
+		Asset DB Callback time: managed=2708 ms, native=1063 ms
+		Scripting: domain reloads=1, domain reload time=2418 ms, compile time=4 ms, other=0 ms
 		Project Asset Count: scripts=2377, non-scripts=3792
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 4.033ms
-	ApplyChangesToAssetFolders: 0.556ms
-	Collect global state as custom dependencies: 7.218ms
-	ProcessAssetsWithTransientArtifactChanges: 578.681ms
-	CategorizeAssets: 213.966ms
-	CompileScripts: 4.055ms
-	ImportOutOfDateAssets: 5982.484ms (5970.151ms without children)
-		CollectScriptTypesHashes: 3.888ms
-		ReloadNativeAssets: 2.977ms
-		UnloadImportedAssets: 5.992ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.659ms
-		ImportSchedulerStart: 0.658ms
-	PostProcessAllAssets: 3455.191ms
-		AssemblyValidation.PostprocessAllAssets 151.395ms
-		PostProcessCallbackCreateDeferredMaterials 59.984ms
-		SpriteAtlasDatabase.OnAssetPostprocessCallback 50.944ms
-		PostprocessAssetsUpdateCachedIcon 40.840ms
-		ShaderAssetModifiedCallback 32.913ms
-		RaytracingShaderImportPostprocess 28.122ms
-		SpeedTreeImporter.PostprocessAllAssets 24.302ms
-		ComputeShaderImportPostprocess 22.292ms
-		LocalizationDatabase.AssetDatabasePostprocessCallback 13.906ms
-		BlockShaderImporter.PostprocessAllAssets 10.547ms
-		XRBuildSystem.XRAssetImported 4.690ms
-		MonoPostProcessAllAssets: 2463.112ms
-			SyncVS.PostprocessSyncProject 788.052ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 565.084ms
-			AssetPostprocessor.OnPostprocessAllAssets 227.707ms
-			PostProcessor.OnPostprocessAllAssets 151.436ms
-			AssetChangedListener.OnPostprocessAllAssets 100.839ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 96.828ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 91.620ms
-			MaterialPostprocessor.OnPostprocessAllAssets 76.997ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 60.891ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 55.811ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 26.491ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 17.111ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.869ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.880ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.457ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.705ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 2.069ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.797ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.660ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.503ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 1.236ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.218ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 1.008ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.001ms
-			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.927ms
-			ThemePostprocessor.OnPostprocessAllAssets 0.765ms
-			AssetProcessor.OnPostprocessAllAssets 0.736ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.733ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.731ms
-			AssetEvents.OnPostprocessAllAssets 0.692ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.611ms
-			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 0.553ms
-			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.455ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.430ms
-			PSDImportPostProcessor.OnPostprocessAllAssets 0.382ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.363ms
-			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.327ms
-			AssetPostprocessorProxy.OnPostprocessAllAssets 0.315ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.309ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.268ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.241ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.213ms
-			AssetReloadNotifier.OnPostprocessAllAssets 0.194ms
-	PostAssetChangesProfiler: 31.836ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.702ms
-	UnloadStreamsBegin: 3.691ms
-	PersistCurrentRevisions: 0.406ms
-	GenerateScriptTypeHashes: 11.713ms
-	GenerateScriptTypeSerializationHashes: 20.540ms
-	Untracked: 2217.232ms
+	InvokePackagesCallback: 5.837ms
+	ApplyChangesToAssetFolders: 0.738ms
+	Collect global state as custom dependencies: 7.335ms
+	ProcessAssetsWithTransientArtifactChanges: 602.862ms
+	CategorizeAssets: 162.523ms
+	CompileScripts: 3.525ms
+	ImportOutOfDateAssets: 5970.147ms (5959.343ms without children)
+		CollectScriptTypesHashes: 6.923ms
+		ReloadNativeAssets: 2.196ms
+		UnloadImportedAssets: 5.954ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.252ms
+		ImportSchedulerStart: 0.364ms
+	PostProcessAllAssets: 3737.067ms
+		AssemblyValidation.PostprocessAllAssets 155.723ms
+		PostProcessCallbackCreateDeferredMaterials 52.399ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 49.993ms
+		PostprocessAssetsUpdateCachedIcon 47.798ms
+		ComputeShaderImportPostprocess 29.016ms
+		SpeedTreeImporter.PostprocessAllAssets 27.652ms
+		ShaderAssetModifiedCallback 27.343ms
+		RaytracingShaderImportPostprocess 25.977ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 12.693ms
+		BlockShaderImporter.PostprocessAllAssets 7.757ms
+		XRBuildSystem.XRAssetImported 6.645ms
+		MonoPostProcessAllAssets: 2703.626ms
+			SyncVS.PostprocessSyncProject 865.157ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 614.052ms
+			AssetPostprocessor.OnPostprocessAllAssets 188.804ms
+			PostProcessor.OnPostprocessAllAssets 138.123ms
+			AssetChangedListener.OnPostprocessAllAssets 119.629ms
+			MaterialPostprocessor.OnPostprocessAllAssets 118.204ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 110.201ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 96.349ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 70.593ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 68.447ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 47.806ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 20.017ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 15.425ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.623ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.772ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.673ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.599ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.075ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 2.052ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.959ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.942ms
+			AssetProcessor.OnPostprocessAllAssets 1.781ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.228ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.172ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.061ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.976ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.900ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.826ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.811ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.809ms
+			AssetEvents.OnPostprocessAllAssets 0.729ms
+			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 0.729ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.697ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.484ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.438ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.406ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.404ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.385ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.353ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.352ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.315ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.249ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.229ms
+	PostAssetChangesProfiler: 32.828ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.651ms
+	UnloadStreamsBegin: 5.471ms
+	PersistCurrentRevisions: 0.399ms
+	GenerateScriptTypeHashes: 10.329ms
+	GenerateScriptTypeSerializationHashes: 17.748ms
+	Untracked: 2506.457ms
 
-Created GICache directory at C:/Users/Emerald/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.020s, timestamps: [44.549 - 44.569]
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/Emerald/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.031s, timestamps: [25.969 - 26.000]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated access token: "RsTEjwCt"... (expires: 2026-10-13T07:01:23Z)
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
-Starting new worker id: 1 with log in C:/Users/Emerald/Documents/GitHub/Bird-O/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 68e6db2ebdc24f95958faec2be5558d6 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f67520a4dbe47bfe8d9cfd0156506007') in 0.3656729 seconds
-Starting new worker id: 2 with log in C:/Users/Emerald/Documents/GitHub/Bird-O/Logs/AssetImportWorkerHW2.log
-[Licensing::Client] Successfully resolved entitlement details
-[Worker0] Imported GUID: 128e987d567d4e2c824d754223b3f3b0 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3f5713672dba082656839b8e87ad51bd') in 0.1276446 seconds
-[Licensing::Client] Successfully resolved entitlement details
-[Worker0] Imported GUID: 82a8d20c41f345e382312ee1050e7ce2 - Path: Assets/Welcome/Welcome2DScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '60415a08f1003b55a194e6e2359959e8') in 0.0889658 seconds
-[Worker0] Imported GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '47b6f9a6c76a533f20d8c1491c3ff1d2') in 0.0443626 seconds
-[Worker0] Imported GUID: 388f1cd890baa1e41865da6df27ca31c - Path: Assets/worm.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '10ecc26a034ed5b88a34f02ca9cdd369') in 0.2108435 seconds
-[Worker0] Imported GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '790ac16fb141e14006def6e0f7f10f96') in 0.2008688 seconds
-[Worker0] Imported GUID: c334973cef89a9840b0b0c507e0377ab - Path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a9faba77fa726c8ee1a5c2602abfb8e') in 0.0397413 seconds
-[Worker0] Imported GUID: 02a0789ac5882cc4eb19da815db946a5 - Path: Assets/Resources/HungerPickup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '407eac09c622b03860b0938e7813f272') in 0.0443488 seconds
-[Worker0] Imported GUID: 49ba57cdb4db34d1098e3104407d91ad - Path: Assets/Welcome/NewWelcomePage.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '56ed952568f7c0346cf46244bc736f3f') in 0.0819867 seconds
-[Worker0] Imported GUID: 87704e45f03061c44b77bc22185c2a9a - Path: Assets/InputSystem.inputsettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '40061f9c9e73e8967c56fae8319e5731') in 0.0602365 seconds
-[Worker0] Imported GUID: 6e59c59b81ab47f9b6ec5781fa725d2c - Path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cffb1a2e9f0ae4edcda0e03264314275') in 0.0519485 seconds
-[Worker0] Imported GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd065fd06b06737fd50e53d92355ad5c') in 0.1509656 seconds
-[Worker0] Imported GUID: c8d12adcee749c344b8117cf7c7eb912 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aad88fb8274fa3d48b14d82d02ce3c6a') in 0.0666253 seconds
-[Worker0] Imported GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09a311dc956235dc3a22f7670d52c1a1') in 0.3800821 seconds
-[Worker0] Imported GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43f7f3788003b3919d48ed90c70b1794') in 0.1212399 seconds
-[Worker0] Imported GUID: f7ada0af4f174f0694ca6a487b8f543d - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd1f5a95e1276ce2fee3ea4690c099e03') in 0.0642319 seconds
-[Worker0] Imported GUID: d930090c0cd643c7b55f19a38538c162 - Path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ffa100a53eec3d4a30fe11eb8424824c') in 0.0521845 seconds
-[Worker0] Imported GUID: 5172debef8b2386429f6c1604c9d2ce2 - Path: Assets/Resources/BillingMode.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b14724159fdaa4651b348c9e8f2c035') in 0.0510692 seconds
-[Worker0] Imported GUID: d82c1b31c7e74239bff1220585707d2b - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a60989d54942e5117a6abd4fd82ad9c3') in 0.0566956 seconds
-[Worker0] Imported GUID: bb497545de3129f4e8439f5fbdeb6eea - Path: Assets/Resources/Player.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4bcf1762dfebaa1d5ddba5230077644a') in 0.0460078 seconds
-[Worker0] Imported GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7de8985ed9aa74b5ce5d6718b02442d6') in 0.0538713 seconds
-[Worker0] Imported GUID: 73a79399807f4e8388c2cbb5494681ca - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f02408c1f84dc2c168e92f78c7b483b6') in 0.0525148 seconds
-[Worker0] Imported GUID: 5df6d4bab315b2945a1e964d79aa284d - Path: Assets/Bird-O.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19b0bf9a0366d4ee872a9d6a92d6f2c6') in 0.1122109 seconds
-[Worker0] Imported GUID: 2cda990e2423bbf4892e6590ba056729 - Path: Assets/Settings/Scenes/URP2DSceneTemplate.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a84a4250be1df30d10212503be2aaa86') in 0.0517847 seconds
-[Worker0] Imported GUID: aba78ba72655f5642a481187ab5a97c0 - Path: Assets/UI Redesin(1)(1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '794287e6d2ee6cf1ac4a54e6bfd75102') in 0.0669623 seconds
-[Worker0] Imported GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/Settings/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '97083b35e98fb03257a2ef7420329342') in 0.0548702 seconds
-[Worker0] Imported GUID: 1e3b057af24249748ff873be7fafee47 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a50001693bf946eeeb9e41addba6f517') in 0.0625962 seconds
-[Worker0] Imported GUID: 14eb328de4b8eb245bb7cea29e4ac00b - Path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '971b863ad5f0a59767c8599aad262061') in 0.0576432 seconds
-[Worker0] Imported GUID: 997a43b767814dd0a7642ec9b78cba41 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f4af307367481fba0170aeb22c395b2') in 0.0835671 seconds
-[Worker0] Imported GUID: dd89cf5b9246416f84610a006f916af7 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '90d67f7edbeafd6b08dd06aa24bbf245') in 0.0573297 seconds
-[Worker0] Imported GUID: fc666cacb26bd5047b328d7377b8bfa0 - Path: Assets/Resources/HungerBar.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '20ea26fd604b48bae900963ffd82b3c8') in 0.0548176 seconds
-[Worker0] Imported GUID: 3f5b5dff67a942289a9defa416b206f3 - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c3e8467d1c58ab6774514b77ef420371') in 0.1098462 seconds
-[Worker0] Imported GUID: 407bc68d299748449bbf7f48ee690f8d - Path: Assets/TextMesh Pro/Shaders/TMPro.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f0589cad58eb49f641aa9b8366d4074c') in 0.0522054 seconds
-[Worker0] Imported GUID: 9747140c28254be2adc582210dfb89b8 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec7fc790a2181c1223430ff9c5f89db5') in 0.0535694 seconds
-[Worker0] Imported GUID: 22a2fba786ad4c40ac0ba09f0b933100 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '511b9e8bf7afa7e97c658709f35bfe14') in 0.058331 seconds
-[Worker0] Imported GUID: 0251f66ebc602a944b35bccd13be2738 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4786f9b795886445b1711cb2e0f18046') in 0.0509529 seconds
-[Worker0] Imported GUID: 5dd49b3eacc540408c98eee0de38e0f1 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b2fc5817ef82984a9aa21cb23aa1baa7') in 0.0579522 seconds
-[Worker0] Imported GUID: 4beb055f07aaff244873dec698d0363e - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '03e5a82d8bdeb0ac9dfa2a5ef79a0091') in 0.0606788 seconds
-[Worker0] Imported GUID: 9eff140b25d64601aabc6ba32245d099 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3b236cf62089e629207a03a45aebdf52') in 0.0499926 seconds
-[Worker0] Imported GUID: fdad9d952ae84cafb74c63f2e694d042 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5800801167b9acaf4952f542df0fb917') in 0.3129463 seconds
-[Worker0] Imported GUID: e32c266ee6204b21a427753cb0694c81 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '341ac2394440bacf26f348ece4dd8393') in 0.0407753 seconds
-Importing 'GUID: 0184a9bb26e81b3488fb170a15d8e83f - Path: Assets/Resources/GDKEditionAutoGen' with importer (DefaultImporter)
-Imported 'GUID: 0184a9bb26e81b3488fb170a15d8e83f' -> (Import Result ID: '7eb4c682a3b566828701bc382a910dde') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=e617aa167e13f0a2a9bd3fc722365d0d DependenciesID=0189270c2480c092a7bf5487763bbb91 StaticDependenciesID=8920998b7f28593d3e6034ca61ca93a6 
-Importing 'GUID: 143881c80d7886744bb6dc8b06aa96c6 - Path: Assets/Resources/GDKEditionAutoGen/GDKEdition.asset' with importer (NativeFormatImporter)
-Imported 'GUID: 143881c80d7886744bb6dc8b06aa96c6' -> (Import Result ID: '5abfd85e8f783a9b14152e8e125a5442') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=c522412f30d77bf8422a73fd28635132 DependenciesID=b30f4de646424159b8057759f3f040c8 StaticDependenciesID=9cd343e3c5defe404c9938544535af1d 
-Refreshing native plugins compatible for Editor in 25.37 ms, found 6 plugins.
-Asset Pipeline Refresh (id=5a86632319fdf2240a7b63c02e31209d): Total: 0.187 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=82486b7332db92f4dabfef538bd69c5d): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-SpriteAtlasPacking completed in 0.013234 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Worker ready: AssetImportWorkerHW1 1
-Worker ready: AssetImportWorkerHW2 2
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            11.929 ms
-	Integration:            6583.134 ms
-	Integration of assets:  0.134 ms
-	Thread Wait Time:       0.053 ms
-	Total Operation Time:   6595.250 ms
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Hi
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-HungerPickup:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:33)
-
-(Filename: Assets/Resources/HungerPickup.cs Line: 33)
-
-Refreshing native plugins compatible for Editor in 24.61 ms, found 6 plugins.
-Asset Pipeline Refresh (id=b7798bd7acb9ccd44a910bc08ad3809d): Total: 0.152 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Refreshing native plugins compatible for Editor in 27.33 ms, found 6 plugins.
-Asset Pipeline Refresh (id=b2e1f4aa85d37b445b671717ff3bccff): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=6c3beb59c6711b84eb3c459d6453f06a): Total: 0.030 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            6.511 ms
-	Integration:            97.665 ms
-	Integration of assets:  0.009 ms
-	Thread Wait Time:       0.057 ms
-	Total Operation Time:   104.242 ms
-Unloading 8789 unused Assets / (20.2 MB). Loaded Objects now: 12397.
-Memory consumption went from 0.75 GB to 0.73 GB.
-Total: 89.668200 ms (FindLiveObjects: 4.071400 ms CreateObjectMapping: 2.025800 ms MarkObjects: 70.109300 ms  DeleteObjects: 12.605400 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-UUEC-8PEV-UZDT-2SS2-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2475579058786-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Worker0] Imported GUID: 349f38d3606449708c7340d26740e1e2 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd5574fb076e5018a80c6131fa229cac') in 0.0410422 seconds
-[Worker0] Imported GUID: dc20866c0d5e413ab7559440e15333ae - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c0004f3b1ea53ac234bea31728d70aa6') in 0.0466065 seconds
-[Worker0] Imported GUID: efe0bf4ac872451e91612d1ae593f480 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0adc15c3b493d2cfdd0e0405a573916f') in 0.0490306 seconds
-[Worker0] Imported GUID: 50f52f9274434ecfb34dd87f0836f323 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cf1b8590a192ec81996213c46a72c04b') in 0.0572756 seconds
-[Worker1] Imported GUID: 3e2e4d7b0bed4cf9ab827e9f32448f69 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '243053277de34e4fa35979ac25ed36bc') in 0.2210988 seconds
-[Worker0] Imported GUID: 6250f98e58fe4abbaada5d84b7ca846d - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fe23122ee8b6a54134b6702b3345d9fc') in 0.0603782 seconds
-[Worker1] Imported GUID: 9abcd5bd764646568a6ea70d00f9264c - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '30e8c5b5d1fecaece07048ff9a08a061') in 0.0616604 seconds
-[Worker0] Imported GUID: 21a509e1d3cd49978623fa564adb6f02 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17fe27ea5ee3b3a098c87df1f45f2621') in 0.0490571 seconds
-[Worker1] Imported GUID: f0303f887b8fa7243a51432c478ff2f3 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17cb6b687011bdb45c3b8f97d9985c2d') in 0.0471282 seconds
-[Worker2] Imported GUID: 71529b88994c1a341b22bc57c038674a - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a5920cb7953187defd338b15afe7baaa') in 0.3440352 seconds
-[Worker0] Imported GUID: e8538afcddc14efbb5d9e94b7ae50197 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8499b43d5d364f44aa8334874fff1e93') in 0.0467998 seconds
-[Worker1] Imported GUID: f9b4c22e15cff344ba9fc6542a58dd07 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e6707583ac6e821c8dd1ce7966add846') in 0.0498508 seconds
-[Worker0] Imported GUID: 3b38a6ba32b869f48812e595baf39746 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '89c771380f2a1e0b27d4ed4ab99f6775') in 0.0467895 seconds
-[Worker2] Imported GUID: aadd5a709a48466c887296bb5b1b8110 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '63a73acdecee10634a452bfc20e1fe0d') in 0.0660059 seconds
-[Worker1] Imported GUID: 16177da2e3254cee91944756d5f8ddd3 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '99f7b0dfc09638f3fb1f2be796614529') in 0.046913 seconds
-[Worker1] Imported GUID: 03ec435d4b7140e9b2d87f79136d8374 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1c41be87122ecdb16dace929aba4979c') in 0.0466238 seconds
-[Worker2] Imported GUID: 53d91f98a2664f5cb9af11de72ac54ec - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c83b80270f28840fcb97f4858f4107e3') in 0.0868116 seconds
-[Worker0] Imported GUID: 3b5cc91c3bf8cf74391252247f52fb59 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '56efd273da934f02e00aaffbb7fd4432') in 0.1026304 seconds
-[Worker1] Imported GUID: 8c4969fd8ba94a68b07cf11f3e7a5137 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ee3030f692004166669bfe63ac0856a') in 0.0444308 seconds
-[Worker2] Imported GUID: 54e994244b4b467e8583cf2da6dcc716 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ece453405860f1121665d8d48aa5927a') in 0.0454766 seconds
-[Worker0] Imported GUID: f28c334d44214474d9702d3ad79ecb0a - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cb138cffca2dc08630aa984abd7e7ac0') in 0.0469386 seconds
-[Worker2] Imported GUID: 84ed36ad77dd4956b2ffe3769f759879 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd443e34cf91f0df20afdf24554cffb67') in 0.0431682 seconds
-[Worker0] Imported GUID: 39a1fa96ad2a449b908fca29d4297a74 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5147948837013eda50a999bcf78d710e') in 0.0477084 seconds
-[Worker2] Imported GUID: c719e38f25a9480abd2480ab621a2949 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2949131c7cf9ca11ce031dfbe01bfc15') in 0.0506638 seconds
-[Worker0] Imported GUID: ac1eb05af6d391b4eb0f4c070a99f1d0 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9f2b49cc81ef20877b40b3885cae85e4') in 0.0479478 seconds
-[Worker1] Imported GUID: 8a2b9e2a607dd2143b58c44bc32410b4 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fb46163f470157893519ca21c3b6b569') in 0.1551549 seconds
-[Worker0] Imported GUID: 9442cda25baa4a0bb544c4d095b00caa - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3dd74e45022c859ae44940a1f1d68665') in 0.0476521 seconds
-[Worker1] Imported GUID: 57694ed9d1cd1e340a4924c0f2eac8e3 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ceb5dae2dbf3662246510d510f8f7b7') in 0.0475249 seconds
-[Worker0] Imported GUID: 08572ab7713642c8a60789750f0bce5c - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca3eb82d30403a33f6fe7fdad2b594fe') in 0.0456246 seconds
-[Worker1] Imported GUID: 251716609f634449bfe8ce75c0ed78fe - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0edf4e1371094546963cd4d5de185120') in 0.0440025 seconds
-[Worker0] Imported GUID: 337f92480dd24675aae9e79210fb1ad9 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '00f32028970e20fa3671ed9327106853') in 0.048439 seconds
-[Worker1] Imported GUID: 4f19c7f94c794c5097d8bd11e39c750d - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0b5acbf55d304b186a2ee2c5053676af') in 0.0675332 seconds
-[Worker0] Imported GUID: 2ac8cf212df6445e8aebbe3cb832e993 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5b732eba1866e48971bfca403b7512c8') in 0.0498108 seconds
-[Worker1] Imported GUID: 03f9d74cec8e4b94a29d2dfd177c821b - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '01e14c99f0cc85f75025ef2e1a0e15bb') in 0.0538704 seconds
-[Worker0] Imported GUID: d2cf87a8a7a94aa8b80dff1c807c1178 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b6c138ab27b7c5d5a4593ff1492918f2') in 0.0506533 seconds
-[Worker2] Imported GUID: b06f0e6c1dfa4356ac918da1bb32c603 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '605a8d760c5efb0e0459a733e1193255') in 0.2911251 seconds
-[Worker0] Imported GUID: c3f814e1d12c45568daf3dd9a86a0e61 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e2fba0ee0193bc34dd5bdfe761c9d1e') in 0.0453121 seconds
-[Worker1] Imported GUID: 70615243e2be4a81afaab9bf5d273d65 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '06d4dc7000b15daeb2de91c9ecd4b5c4') in 0.04832 seconds
-[Worker0] Imported GUID: d412675cfb3441efa3bf8dcd9b7624dc - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '38fd296fc6c44b5d153a9f00d0918d00') in 0.0507807 seconds
-[Worker1] Imported GUID: eea2b7206368b444e84fbec4ec32b64a - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b77c850d766746eccbc6b125ecb96c53') in 0.0494305 seconds
-[Worker2] Imported GUID: c9f6d0e7bc8541498c9a4799ba184ede - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6fbd119849367489b0377c3fe632ad67') in 0.0925487 seconds
-[Worker0] Imported GUID: f970ea55f9f84bf79b05dab180b8c125 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e94bd1bb82b0ef95737c215f9ca8ad4') in 0.0470098 seconds
-[Worker1] Imported GUID: 2d687537154440a3913a9a3c7977978c - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '72b93c5ddc43f8961926b371138f8422') in 0.0499105 seconds
-[Worker2] Imported GUID: 8ef7be1c625941f7ba8ed7cc71718c0d - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2395bd51dcaefd044a073069c3dcde8c') in 0.0545198 seconds
-[Worker0] Imported GUID: 2787a46a4dc848c1b4b7b9307b614bfd - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7d739569b3a02f6a1f13f62f62745a71') in 0.0533066 seconds
-[Worker2] Imported GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa34e795f8b7a4d8786847c643dc7c74') in 0.052128 seconds
-[Worker0] Imported GUID: a4b6f99e8bc54541bbd149b014ff441c - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77e74661183feaa953a48eee3849a85b') in 0.0448302 seconds
-[Worker2] Imported GUID: 5fe2257128d9401fad0790f581dc8a6f - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b88491d62df8b18eb718529f0aa91ee9') in 0.0461245 seconds
-[Worker0] Imported GUID: a73109742c8d47ac822895a473300c29 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a7141e54199dcc3ce0454595c1ec252a') in 0.0446935 seconds
-[Worker2] Imported GUID: e6b9b44320f4448d9d5e0ee634259966 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e0a0166d08b2b6190a2b3350334baa8b') in 0.0434234 seconds
-[Worker0] Imported GUID: 875684baf40f4d008ce806d03e2a81b2 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ee0166ca1c012bbbaedc5c0cbe057ef7') in 0.0474821 seconds
-[Worker2] Imported GUID: e76e6c0f81964cbda3fe0b7d26ed8060 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1fe272810ff2dd2a08989e13129d7409') in 0.0432227 seconds
-[Worker0] Imported GUID: f4eec857a4fdf2f43be0e9f3d1a984e7 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ea4b6463f29f4d56a5cb9cef1f4811e1') in 0.0454606 seconds
-[Worker2] Imported GUID: 8f7137eacd7042d5b17ef0efe5e744f5 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'acc58c4293dcf878645d82b46e1dc820') in 0.0411998 seconds
-[Worker1] Imported GUID: a6e39ced0ea046bcb636c3f0b2e2a745 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a15086bdb8b5f2879cc48489e5d17ac8') in 0.3615867 seconds
-[Worker2] Imported GUID: f7cfa58e417a46ea8889989684c2522e - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '492149a33ae063fc740388767ca2b2a6') in 0.0271133 seconds
-[Worker0] Imported GUID: 4c86a3366cd840348ebe8dc438570ee4 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b0d6eb063e2f7291df1384dc6f5006ac') in 0.0376568 seconds
-[Worker0] Imported GUID: 2ed57967c52645d390a89dcf8f61ba73 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f431ce2a5e71a4be8f1b03a4e4bf1427') in 0.0371266 seconds
-[Worker1] Imported GUID: 9ad269c99dcf42b7aedefd83dd5a7b9d - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7155aa45cba8e3117ce12fb7611d302') in 0.0801156 seconds
-[Worker2] Imported GUID: 6751ce1a4611b3940812c13a6847d94f - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd17750f276eeb289c2ed3e37e30daa88') in 0.0577397 seconds
-[Worker0] Imported GUID: 283f897e4925411ebbaa758b4cb13fc2 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dd9525ab2ee20623d0cf77c53506e8d0') in 0.0362848 seconds
-[Worker1] Imported GUID: 5cf8ae092ca54931b443bec5148f3c59 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '881666ebd3be7cd0fe26d89b6af24b47') in 0.033878 seconds
-[Worker2] Imported GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '57e5068abaa51c5f7fe2cdf1517a744b') in 0.0337713 seconds
-[Worker0] Imported GUID: 686ec78b56aa445795335fbadafcfaa4 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e12182ba394d9206d4db5eb72500602e') in 0.0317583 seconds
-[Worker1] Imported GUID: d736ce056cf444ca96e424f4d9c42b76 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4830a25f4d8f082d834c1583aedd2a62') in 0.0310289 seconds
-[Worker1] Imported GUID: 24b0dc2d1d494adbbec1f4db26b4cf83 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd87f65cbf0bb2203c1cf0e8ad1a77b7') in 0.0490238 seconds
-[Worker0] Imported GUID: 91b8ba3d52e041fab2d0e0f169855539 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca99f23b92056dbba0c8fe334acabe30') in 0.0573487 seconds
-[Worker0] Imported GUID: 52ec835d14bd486f900952b77698b7eb - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d502d7b9a5d6eb24450ee2bf1636403') in 0.0404988 seconds
-[Worker2] Imported GUID: 4ccf43d26c4748c792174516f4a8fcef - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '87ce4ffc470fd2fe4c856d482202fc38') in 0.1314919 seconds
-[Worker0] Imported GUID: 103e0a6a1d404693b9fb1a5173e0e979 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '94381fedd2d51a8353d493247afbb5ba') in 0.0314721 seconds
-MonoPathRemapper: Attempts to remap: 68220; Successful remaps: 38128
-[Worker2] Imported GUID: 10c49fcd9c64421db7c0133e61e55f97 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bef43304e585300392cdeebf4d07d748') in 0.0332392 seconds
-[Worker1] Imported GUID: 2b5e9ae96c5644d8bae932f8b4ca68a2 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2eeafab7d0eeb60d7041bf1e27a1c640') in 0.0904235 seconds
-[Worker2] Imported GUID: a4d4c76e63944cba8c7d00f56334b98c - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58d3d7c6d4c3b844262d0d1a2e424c9b') in 0.0273986 seconds
-[Worker0] Imported GUID: 947a44964e53bf0448ff698b2a2219c0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4775ffdf4d1ee8e9b1ed86f619217aa2') in 0.036902 seconds
-[Worker1] Imported GUID: 749b9069dc4742c5bfa5c74644049926 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'abd32af838f26cd07c60fa9031953a9d') in 0.0284038 seconds
-[Worker2] Imported GUID: a05dcd8be7ec4ccbb35c26219884aa37 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b26c4efc84d0fa8d7b7b04a283f4f012') in 0.0252711 seconds
-[Worker1] Imported GUID: fd09957580ac4326916010f1f260975b - Path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd84dec8f0d7b113fd19c26178ace791') in 0.0369736 seconds
-[Worker2] Imported GUID: 43bcd35a1c0c40ccb6d472893fe2093f - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5fd99c6540df8d1c1cb340ae613ad28b') in 0.0264521 seconds
-[Worker1] Imported GUID: c76d18757a194d618355f05f815cb0a1 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d5ecfd42e8670277f63aaf6c6573ec7') in 0.0319537 seconds
-[Worker0] Imported GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c0783c2123d1af1945a27a1f8f1c9436') in 0.0894067 seconds
-[Worker2] Imported GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '109e1c2ddde7855582b018f78a5aae99') in 0.0607437 seconds
-[Worker1] Imported GUID: 79459efec17a4d00a321bdcc27bbc385 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'de57ecd1815d3d10d414ea2c9fd30042') in 0.0422425 seconds
-[Worker0] Imported GUID: 21256c5b62f346f18640dad779911e20 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6351c83b6665ddec75de4a82e25467c2') in 0.029867 seconds
-[Worker2] Imported GUID: f629c6e43dba4bf38cb74d8860150664 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6624c4a628ea22d38f916d1bdd1a7318') in 0.0335138 seconds
-[Worker0] Imported GUID: 1312ae25639a4bae8e25ae223209cc50 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f85e2920eeab23bf8702f852b1aa1086') in 0.0281755 seconds
-[Worker1] Imported GUID: 1cdc5b506b1a4a33a53c30669ced1f51 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '179d858962ce31e5a676fb4394d9c077') in 0.0402943 seconds
-[Worker0] Imported GUID: 03d0538de6e24c0f819bfc9ce084dfa9 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a4078714ef7e30faf386e796cccd00e5') in 0.0283266 seconds
-[Worker2] Imported GUID: 17c350171f7a3ca479f830547c66d187 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a89e227719dfb4282b3c3bd7d0bab13') in 0.0305708 seconds
-[Worker1] Imported GUID: f88677df267a41d6be1e7a6133e7d227 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27e84e70dcec63f4b332667ba8ffbf43') in 0.0296975 seconds
-[Worker0] Imported GUID: f2dcf029949142e28b974630369c8b4e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '28f8502da6032717f575dbc0760ba380') in 0.0280626 seconds
-[Worker2] Imported GUID: 8878a782f4334ecbbcf683b3ac780966 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1db0182dc65bc5148373a4f39b6c66ee') in 0.0311152 seconds
-[Worker1] Imported GUID: 1a7eb92a01ed499a987bde9def05fbce - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f3d0a5b71fb63370eabc31ec201fe061') in 0.0306962 seconds
-[Worker0] Imported GUID: 790744c462254b7ba8038e6ed28b3db2 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1002efab168701a9a9e9cbc959ede073') in 0.0296361 seconds
-[Worker2] Imported GUID: 76c11bbcfddf44e0ba17d6c2751c8d84 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4421ebd59b44a1a99282b2c23e70440e') in 0.0288696 seconds
-[Worker1] Imported GUID: e4e0d9ccee5f4950be8979268c9014e0 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd96e865acde1cb4b1490e11e0c6fe001') in 0.027897 seconds
-[Worker2] Imported GUID: 69a525efa7e6472eab268f6ea605f06e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'afa3032c4f8bec85ee86f6cd3ca0d6fe') in 0.032707 seconds
-[Worker0] Imported GUID: e73a58f6e2794ae7b1b7e50b7fb811b0 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a765bc84941e6fd07f614da7c5932bb9') in 0.0406529 seconds
-[Worker1] Imported GUID: dc36b3fdc14f47ebb36fd484a67e268a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f1e8c1650530d0ea06ae80fcb6a85266') in 0.0594131 seconds
-[Worker2] Imported GUID: 602cb87b6a29443b8636370ea0751574 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '79e3b7808cd521d7da56f6d947f5204d') in 0.0370611 seconds
-[Worker0] Imported GUID: 2ce5c55e85304b819a1826ecbc839aa5 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2b47e521287a9572d80e39887d37ee5d') in 0.0320217 seconds
-[Worker1] Imported GUID: f4e195ac1e204eff960149d1cb34e18c - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16394c7704ff22967bb7097f2db60961') in 0.030185 seconds
-[Worker2] Imported GUID: 85ac55597b97403c82fc6601a93cf241 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3db5cdce1e8df6d4361e4a26f04fd61e') in 0.0363966 seconds
-[Worker0] Imported GUID: 0161d805a3764c089bef00bfe00793f5 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b5cef32dd3621f4f12c88e90de28169e') in 0.0391766 seconds
-[Worker1] Imported GUID: c3c1afeda5e545e0b19add5373896d2e - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a7909f181d6865b5b5f2e7d2cf4c7199') in 0.0294793 seconds
-[Worker2] Imported GUID: 6eb184de103d4b3f812b38561065192f - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5894a7680ed66eab22a2ba5dbacd4059') in 0.0280914 seconds
-[Worker0] Imported GUID: bb8dfcd263ad4eb383a33d74a720be6f - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5c42a9aa546aec26e91a2ab1359a8d11') in 0.0389954 seconds
-[Worker1] Imported GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6009343bb402f339d3c0921fedcd62a') in 0.0390238 seconds
-[Worker2] Imported GUID: d75b8f41e959450c84ac6e967084d3e1 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c301e4e025765834c75f09aa88656131') in 0.0352667 seconds
-[Worker0] Imported GUID: 83680ab1a69f4102ac67d1459fe76e1f - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b8c146289def1a354a729ee66dc9b8f') in 0.0284676 seconds
-[Worker1] Imported GUID: 7631f4eff8f74ed38eb3eb9db17134e1 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd2fac03855fdd78fb77061659e493d51') in 0.0379579 seconds
-[Worker2] Imported GUID: a0fc465d6cf04254a2938578735e2383 - Path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a327d1ce77e25372f9cb4c9bd7dec79') in 0.0385638 seconds
-[Worker0] Imported GUID: 42df1c7856584b6b8db9a509b6b10074 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e2bf5c4d735bc9ba8213d63412a72a12') in 0.0494748 seconds
-[Worker2] Imported GUID: 6f2c5b59b6874405865e2616e4ec276a - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3611c77115f5342766eef1457b351d2b') in 0.0226838 seconds
-[Worker1] Imported GUID: f952c082cb03451daed3ee968ac6c63e - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '173d9f215bc068c0a382f4007165157c') in 0.0313909 seconds
-[Worker2] Imported GUID: 479a66fa4b094512a62b0a8e553ad95a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad33c16542f0b60e3b3f1fa8a4e555d0') in 0.025457 seconds
-[Worker0] Imported GUID: 6522f30e342599e4e9dd4cc2cc03c830 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b452c7037d1387ae9d36735bdaad24d9') in 0.0317609 seconds
-[Worker1] Imported GUID: 8b29aaa3eec7468097ff07adfcf29ac9 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f6967bdcf870beb7739c29fd9e039bb2') in 0.0496504 seconds
-[Worker2] Imported GUID: ed5290d8df18488780e2996b9b882f01 - Path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16b931dd038c6a999fdcad0a4ad56dfc') in 0.0302081 seconds
-[Worker0] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f19bd0909a8fb70bd9d0f1b900ad134c') in 0.0389298 seconds
-Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Users\Emerald\Documents\GitHub\Bird-O\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/Emerald/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-Pipeline Server stopped
-Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'ad6ca2034549a8dd6f88c2e2fb528c97') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1aedbe56ae62f321fe459982db2fa012 StaticDependenciesID=e9a43e809c5953780a851aff477bfce8 
-Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '3aedf6918cd46e1a0c631a375f9f23e3') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=4e60e4f38b61f90d2026e521b4fa048b StaticDependenciesID=b538517dbb2661f29314fd8c7fb3323f 
-Refreshing native plugins compatible for Editor in 36.98 ms, found 6 plugins.
-Asset Pipeline Refresh (id=8091b1e0742401446b7108a5b34ee0bf): Total: 0.170 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Input System module state changed to: ShutdownInProgress.
-Input Polling Thread exited.
-Input System module state changed to: Shutdown.
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-Emerald-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-Emerald channel disconnected successfully.
-Lingering sessions upon destruction of worker manager
-Unity Data Store service was successfully shut down
-UDS shutting down local client system
-Shut down UDS service system complete
-AcceleratorClientConnectionCallback - disconnected - :0
-Cleanup mono
-CodeReloadManager destroyed
-abort_threads: Failed aborting id: 000000000000246C, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000003904, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000004040, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 000000000000246C, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000003904, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000004040, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 3872
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-[Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791870768663,"processId":16956,"allocatedMemory":20987796,"memoryLabels":[{"Default":212783},{"Permanent":15516},{"NewDelete":70057},{"Thread":4197944},{"Manager":818853},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":861628},{"Material":24},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33632},{"Input":45280},{"JobScheduler":256},{"TextLib":17326},{"Mono":48},{"MonoCode":320},{"ScriptingNativeRuntime":1488928},{"BaseObject":50448},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":7389},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":510044},{"StaticString":3808},{"Utility":2673882},{"Curl":48},{"PoolAlloc":2408},{"AI":80},{"TypeTree":14869},{"ScriptManager":18960},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8304},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":10560},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268133},{"EditorUtility":151975},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8908441},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":264},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3604},{"Windowing":456},{"Licensing":12807},{"AssetReference":32},{"IPCStream":32}]}
