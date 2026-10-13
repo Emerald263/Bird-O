@@ -105,11 +105,7 @@
       "editorCompatibility": "2019.3.0a1",
       "version": "3.8.2",
       "source": "registry",
-      "testable": false,
-      "errors": [
-        "Cannot connect to 'download.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.",
-        "Cannot connect to 'download.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set."
-      ]
+      "testable": false
     },
     "com.unity.collab-proxy@2.13.6": {
       "name": "com.unity.collab-proxy",
@@ -188,6 +184,26 @@
       "fingerprint": "549886182930d71268e669c8cad270abe436405f",
       "version": "2.0.1",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.pipeline@0.7.0-exp.1": {
+      "name": "com.unity.pipeline",
+      "displayName": "Unity Pipeline",
+      "resolvedPath": "C:\\Users\\Emerald\\Documents\\GitHub\\Bird-O\\Library\\PackageCache\\com.unity.pipeline@ab05e9cd7f74",
+      "fingerprint": "ab05e9cd7f74cc7e8d9dee579ca5a122192e9335",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "0.7.0-exp.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.purchasing@5.4.3": {
+      "name": "com.unity.purchasing",
+      "displayName": "In-App Purchasing",
+      "resolvedPath": "C:\\Users\\Emerald\\Documents\\GitHub\\Bird-O\\Library\\PackageCache\\com.unity.purchasing@c771cfd27c96",
+      "fingerprint": "c771cfd27c9657c20b5500d32b7b6a3ef1e3bd0f",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "5.4.3",
+      "source": "registry",
       "testable": false
     },
     "com.unity.render-pipelines.universal@17.6.0": {
@@ -586,6 +602,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.services.core@1.18.0": {
+      "name": "com.unity.services.core",
+      "displayName": "Services Core",
+      "resolvedPath": "C:\\Users\\Emerald\\Documents\\GitHub\\Bird-O\\Library\\PackageCache\\com.unity.services.core@3464cb68d709",
+      "fingerprint": "3464cb68d7096e9749b8bf60588cfe0568b643fc",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.18.0",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.nuget.mono-cecil@1.11.6": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
@@ -632,6 +658,16 @@
       "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.services.analytics@6.3.0": {
+      "name": "com.unity.services.analytics",
+      "displayName": "Analytics",
+      "resolvedPath": "C:\\Users\\Emerald\\Documents\\GitHub\\Bird-O\\Library\\PackageCache\\com.unity.services.analytics@cde4e6cf92f9",
+      "fingerprint": "cde4e6cf92f9fcb43ce29d380df0e9c0b9428e6c",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "6.3.0",
       "source": "registry",
       "testable": false
     },
