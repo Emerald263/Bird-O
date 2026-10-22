@@ -211,7 +211,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!1 &372741746
+--- !u!1 &364746695
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,8 +219,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 372741747}
-  - component: {fileID: 372741748}
+  - component: {fileID: 364746696}
+  - component: {fileID: 364746697}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -228,34 +228,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &372741747
+--- !u!4 &364746696
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372741746}
+  m_GameObject: {fileID: 364746695}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 282.56744, y: 207.17392, z: 0}
+  m_LocalPosition: {x: 487.04224, y: 306.41464, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &372741748
+--- !u!114 &364746697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372741746}
+  m_GameObject: {fileID: 364746695}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 820497fbcba1af64aa17a995b1fcfcb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameMangerScript
-  gameOverUI: {fileID: 826950536}
+  gameOverUI: {fileID: 0}
   player: {fileID: 0}
 --- !u!1 &381547678
 GameObject:
@@ -321,7 +321,7 @@ RectTransform:
   m_GameObject: {fileID: 445369029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.59998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1509590123}
@@ -399,6 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HungerBars
   HungerSlider: {fileID: 445369031}
   Hunger: 0
+  maxHunger: 100
   gameManger: {fileID: 0}
 --- !u!114 &445369033
 MonoBehaviour:
@@ -928,7 +929,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826950536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -971,7 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820497fbcba1af64aa17a995b1fcfcb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameMangerScript
-  gameOverUI: {fileID: 372741746}
+  gameOverUI: {fileID: 0}
   player: {fileID: 0}
 --- !u!1 &1042166489
 GameObject:
@@ -1066,7 +1067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1241351800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1131,7 +1132,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 372741746}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -1723,7 +1724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HungerBars
   HungerSlider: {fileID: 445369031}
   Hunger: 2
-  gameManger: {fileID: 372741748}
+  maxHunger: 100
+  gameManger: {fileID: 0}
 --- !u!61 &1668641116
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1797,7 +1799,7 @@ RectTransform:
   m_GameObject: {fileID: 1676858710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.9875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 381547679}
@@ -1820,7 +1822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.17055711, g: 0.5707547, b: 0.12384299, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.84313726}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1872,7 +1874,7 @@ RectTransform:
   m_GameObject: {fileID: 1864819879}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.2, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.067494, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 445369030}
@@ -1880,7 +1882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -200, y: -80}
+  m_AnchoredPosition: {x: -200, y: -53.035034}
   m_SizeDelta: {x: 844, y: 407}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1864819881
@@ -1896,7 +1898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9150943, g: 0.45754716, b: 0.7457558, a: 0.392}
+  m_Color: {r: 0.4292453, g: 0.6849081, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1981,6 +1983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Worm
       objectReference: {fileID: 0}
+    - target: {fileID: 8013842536534703645, guid: ae4135355ece1524389194bbb1dddf1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2000,4 +2006,4 @@ SceneRoots:
   - {fileID: 1543655017}
   - {fileID: 5950216061124557979}
   - {fileID: 495782507}
-  - {fileID: 372741747}
+  - {fileID: 364746696}

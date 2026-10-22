@@ -1,60 +1,62 @@
 using UnityEngine;
 using UnityEngine.UI;
-public class HungerBars : MonoBehaviour
+using UnityEngine.InputSystem;
+public class HungerBar : MonoBehaviour
 {
     public Slider HungerSlider;
- 
+
     public float Hunger;
-    bool Eat;
-    float maxHunger = 100f;
+    public float maxHunger = 100f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private bool isDead;
-    public GameMangerScript gameManger;
+    public float decayRate = 1f;
+    public float movingDecayRate = 2f;
+
+
     void Start()
     {
         Hunger = maxHunger;
+        HungerSlider.minValue = 0;
+        HungerSlider.maxValue = maxHunger;
+        HungerSlider.value = Hunger;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Hunger -= decayRate * Time.deltaTime;
 
-        HungerSlider.value = Hunger; 
-        
-        if (Hunger >= 0){
-      
-        Hunger -= 1f * Time.deltaTime; 
 
         if (Input.GetKey(KeyCode.W))
         {
-            Hunger -= 2f * Time.deltaTime;
+            Hunger -= 3f * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            Hunger -= 2f * Time.deltaTime;
-        }  
+            Hunger -= 3f * Time.deltaTime;
+        }
         if (Input.GetKey(KeyCode.A))
         {
-             Hunger -= 2f * Time.deltaTime;
+            Hunger -= 3f * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.D))
-        { 
-            Hunger -= 2f * Time.deltaTime;
+        {
+            Hunger -= 3f * Time.deltaTime;
         }
+        Hunger = Mathf.Clamp(Hunger, 0, maxHunger);
+        HungerSlider.value = Hunger;
+    }
+
+    public void AddHunger(float amount)
+    {
+        Hunger += amount;
+        Hunger = Mathf.Clamp(Hunger, 0, maxHunger);
+        HungerSlider.value = Hunger;
+        Debug.Log("Hunger" + Hunger);
+    }
+}
 
 
-        if (Hunger <= 0 && !isDead) 
-            {
-                isDead = true; 
-                Debug.Log("Dead");
-                gameManger.gameOver();
-            }
-        }
-       
-        
-    }
-          
-   
-    }
+
 

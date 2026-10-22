@@ -1,40 +1,25 @@
-using UnityEditor;
+
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class HungerPickup : MonoBehaviour
 
 {
-    
-    bool Eat;
-    
-    void Update(){ 
-       
-       
-     
-            if (Input.GetKeyDown(KeyCode.E)&& Eat)
-            { 
-              if (HungerBar.Hunger <= 100)
-                { 
-                     
-                
-               HungerBar.Hunger += 10 ;
-               Debug.Log(HungerBar.Hunger);
-               Destroy(gameObject);  
-                }
-            }
-    
-    }
-    
-    
-     private void OnTriggerEnter2D (Collider2D other)
-    { 
-        if (other.CompareTag("Player")){
-            Debug.Log("Hi");  
-            Eat = true;
-           
+    public float hungerAmount = 10f;
+    private bool eaten = false;
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (eaten)
+            return;
+
+        HungerBar hungerBar = other.GetComponentInParent<HungerBar>();
+
+        if (hungerBar != null)
+        {
+            eaten = true;
+            hungerBar.AddHunger(hungerAmount);
+            Debug.Log("bird ate worm");
+            gameObject.SetActive(false);
         }
     }
-    }
-
-
+}
