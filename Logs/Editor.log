@@ -1,23 +1,23 @@
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 23204)
-VBCSCompiler prewarm took 24.35 ms
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 28488)
+VBCSCompiler prewarm took 35.17 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aph67" at "2026-11-03T16:38:40.3221676Z"
 OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16204 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aph67" at "2026-11-03T16:17:06.5438345Z"
-Date: 2026-11-03T16:17:06Z
+Date: 2026-11-03T16:38:40Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28432, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              54219fd73c58442ab060fd3d40f9d5b4
+  Session Id:              0e3ec6157a41495a8ced09e340d45a61
   Correlation Id:          ed40ff9c77375b5b4113fa7fde606d53
-  External correlation Id: 5755227831743670643
+  External correlation Id: 6292476436924640713
   Machine Id:              eacuy382v+wqNdgnsU5w1Rdw0rI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aph67" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aph67-notifications" at "2026-11-03T16:17:06.6415948Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aph67" (connect: 0.00s, validation: 0.01s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aph67-notifications" at "2026-11-03T16:38:40.4246715Z"
 [Licensing::Client] Successfully updated the access token
 [Licensing::Module] Successfully updated the access token eCk3SlTrsv...
 [Licensing::Client] Successfully resolved entitlement details
@@ -26,7 +26,7 @@ Date: 2026-11-03T16:17:06Z
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] Licensing Background thread has ended after 0.12s
 
@@ -84,16 +84,16 @@ C:/Users/aph67/Documents/GitHub/Bird-O
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [28228]  Target information:
+Player connection [30968]  Target information:
 
-Player connection [28228]  * "[IP] 192.168.42.111 [Port] 55504 [Flags] 2 [Guid] 153812864 [EditorId] 153812864 [Version] 1048832 [Id] WindowsEditor(7,Mirai_3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30968]  * "[IP] 192.168.42.111 [Port] 55504 [Flags] 2 [Guid] 1731188933 [EditorId] 1731188933 [Version] 1048832 [Id] WindowsEditor(7,Mirai_3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28228] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28228] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30968] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-25552" after 0.7 seconds.
+[Package Manager] Connected to IPC stream "Upm-23436" after 0.9 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 Initialising UDS system complete:
@@ -112,9 +112,7 @@ Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/aph67/
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 Unity Data Store running and initialised
-Artifact Garbage Collection - Unregistered 5332 artifacts with missing UDS content
-Artifact Garbage Collection - Unregistered 5332 artifacts with missing UDS content
-Refreshing native plugins compatible for Editor in 6.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.79 ms, found 0 plugins.
 Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
@@ -131,37 +129,37 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006567 seconds.
+Registered in 0.004735 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  2.065 seconds
-Domain Reload Profiling: 3402ms
-	BeginReloadAssembly (271ms)
-		CreateAndSetChildDomain (7ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (838ms)
-		LoadAssemblies (256ms)
-		TypeCache.Refresh (552ms)
-			TypeCache.ScanAssembly (516ms)
-		AnalyzeDomain (2ms)
-	FinalizeReload (2069ms)
+- Finished resetting the current domain, in  2.438 seconds
+Domain Reload Profiling: 4242ms
+	BeginReloadAssembly (500ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (194ms)
+	LoadAllAssembliesAndSetupDomain (1043ms)
+		LoadAssemblies (469ms)
+		TypeCache.Refresh (678ms)
+			TypeCache.ScanAssembly (637ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (2441ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (1058ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (1168ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -254,27 +252,15 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.test-framework.performance@6.6.0 (location: C:\Users\aph67\Documents\GitHub\Bird-O\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
 [Package Manager] com.unity.analytics is deprecated: This package is deprecated and won't be compatible with future Unity versions. It will only receive critical updates, with no new features or bug fixes. Migrate to Unity Analytics: https://docs.unity.com/en-us/analytics
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.05 seconds
-[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Package Manager] Done registering packages in 0.06 seconds
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/aph67/Documents/GitHub/Bird-O
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll"
-Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
-WorkingDir: C:/Users/aph67/Documents/GitHub/Bird-O
-ExitCode: 4 Duration: 1s206ms
-Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
-[1413/1871  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra requires additional run (1.01 seconds), 2 items updated, 1412 evaluated
-ExitCode: 0 Duration: 8s874ms
-Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/aph67/Documents/GitHub/Bird-O
-ExitCode: 3 Duration: 2s246ms
-Finished compiling graph: 1875 nodes, 41286 flattened edges (34674 ToBuild, 312 ToUse), maximum node priority 2022
-[ 902/1871  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
-[1413/1871  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+ExitCode: 3 Duration: 1s878ms
+[1413/1871  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
 [1867/1871  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
 ##### CommandLine
 "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
@@ -934,7 +920,7 @@ Assets\Resources\GameManger.cs(68,5): error CS0106: The modifier 'public' is not
 Assets\Resources\GameManger.cs(75,5): error CS0106: The modifier 'public' is not valid for this item
 
 Assets\Resources\GameManger.cs(83,2): error CS1513: } expected
-*** Tundra build failed (2.20 seconds), 3 items updated, 1871 evaluated
+*** Tundra build failed (1.68 seconds), 2 items updated, 1871 evaluated
 ## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
 ## CmdLine: "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
 ## Output:
@@ -951,233 +937,6 @@ Assets\Resources\GameManger.cs(62,5): error CS0106: The modifier 'public' is not
 Assets\Resources\GameManger.cs(68,5): error CS0106: The modifier 'public' is not valid for this item
 Assets\Resources\GameManger.cs(75,5): error CS0106: The modifier 'public' is not valid for this item
 Assets\Resources\GameManger.cs(83,2): error CS1513: } expected
-AssetDatabase: script compilation time: 13.812967s
+AssetDatabase: script compilation time: 3.813078s
 Total cache size 267472872
-Total cache size after purge 267472872, took 00:00:01.4706459
-Safe Mode: Only loading a subset of assemblies
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 31.99 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.173 seconds
-Domain Reload Profiling: 2824ms
-	BeginReloadAssembly (687ms)
-		DisableScriptedObjects (112ms)
-		CreateAndSetChildDomain (123ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (143ms)
-	LoadAllAssembliesAndSetupDomain (743ms)
-		LoadAssemblies (538ms)
-		TypeCache.Refresh (33ms)
-			TypeCache.ScanAssembly (23ms)
-		AnalyzeDomain (7ms)
-			BuildScriptInfoCaches (4ms)
-	FinalizeReload (1176ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (5ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (245ms)
-			ProcessInitializeOnLoadAttributes (262ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (16ms)
-		AwakeInstancesAfterBackupRestoration (73ms)
-The following asset(s) located in immutable packages were unexpectedly altered. Making changes to immutable packages isn't recommended because the changes can be lost without any warning during Package Manager operations.
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/EnhancedTouch/TouchSimulation.cs
-  Packages/com.unity.2d.animation/package.json
-  Packages/com.unity.timeline/Runtime/Scripting/PlayableTrack.cs
-  Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Components/DisallowGPUDrivenRendering.cs
-  Packages/com.unity.collab-proxy/Editor/Gluon/UpdateProgress.cs
-  Packages/com.unity.2d.aseprite/Editor/Aseprite/Chunks/UserDataChunk.cs
-  Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/GraphicRaycasterButtonTests.cs
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/StringHelpers.cs
-  Packages/com.unity.shadergraph/Editor/Generation/Enumerations/BlendOp.cs
-  Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/VFXParticleDecal.template
-  Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeComponent.cs
-  Packages/com.unity.collab-proxy/Editor/CodeEditor/Rendering/SingleCharacterElementGenerator.cs
-  Packages/com.unity.render-pipelines.core/Editor/Utilities/TimedScope.cs
-  Packages/com.unity.timeline/Editor/Window/Modes/TimelineInactiveMode.cs
-  Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Eviction.compute
-  Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectStochasticLightIntegration.urtshader
-  Packages/com.unity.2d.psdimporter/Editor/PSDLayer.cs
-  Packages/com.unity.timeline/Runtime/Evaluation/RuntimeElement.cs
-  Packages/com.unity.render-pipelines.universal/Runtime/2D/Lights/Light2DPoint.cs
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Events/InputEventPtr.cs
-  Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRebuildTracker.cs
-  Packages/com.unity.2d.animation/IK/Runtime/AssemblyInfo.cs
-  Packages/com.unity.render-pipelines.core/Editor/Volume/Drawers/BoolParameterDrawer.cs
-  Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/SelectionPickingPass.hlsl
-  Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/ScreenSpaceReflectionRendererFeature/ScreenSpaceReflectionRendererFeature.cs
-  Packages/com.unity.collab-proxy/Editor/UI/DropDownTextField.cs
-  Packages/com.unity.2d.animation/Profiler/Editor/UI/SpriteSkinHierarchyView/SpriteSkinHierarchyView.uxml
-  Packages/com.unity.collections/Unity.Collections/StreamCompressionModel.cs
-  Packages/com.unity.collab-proxy/Editor/UI/Errors/ErrorsListView.cs
-  Packages/com.unity.shadergraph/Editor/Data/Interfaces/IMayRequireVertexID.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Acknowledgements/Acknowledgement_DotNetZip.cs
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/DpadControl.cs
-  Packages/com.unity.render-pipelines.universal/Editor/AssetPostProcessors/ModelPostProcessor.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/WarningLevel.cs
-  Packages/com.unity.test-framework.performance/Editor/TestReportGraph/SampleGroupAdditionalData.cs
-  Packages/com.unity.collections/Unity.Collections.Tests/Jobs/FilterJobTests.cs
-  Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/AssemblyProvider/PlayerTestAssemblyProvider.cs
-  Packages/com.unity.collab-proxy/Editor/Diff/UnityBigFileChecker.cs
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/Vector3Control.cs
-  Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Community.uxml
-  Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Drawing/Shapes/ChangesetNumberShape.cs
-  Packages/com.unity.render-pipelines.universal/ShaderLibrary/Debug/DebuggingCommon.hlsl
-  Packages/com.unity.microsoft.gdk/Runtime/Interop/XBL/Achievements/XblAchievementsInterop.cs
-  Packages/com.unity.2d.tilemap/Editor/GridPaletteAddPopup.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqCore/Changelog_1_2_1.cs
-  Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticlePlanarPrimitivesLit/PassGBuffer.template
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Canvases/ICanvas.cs
-  Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Advanced/AbsoluteNode.cs
-  Packages/com.unity.learn.iet-framework/Editor/Property Attributes/LocationAttribute.cs
-  Packages/com.unity.microsoft.gdk/Runtime/Interop/XBL/Multiplayer/XblMultiplayerSessionChangeEventArgs.cs
-  Packages/com.unity.timeline/Runtime/Activation/ActivationTrack.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Nesting/GraphInputInspector.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs/Changelog_1_4_0.cs
-  Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Targets/UniversalSpriteCustomLitSubTarget.cs
-  Packages/com.unity.render-pipelines.core/Editor/CoreEditorDrawers.cs
-  Packages/com.unity.searcher/LICENSE.md
-  Packages/com.unity.shadergraph/Editor/Data/Util/SerializationHelper.cs
-  Packages/com.unity.collab-proxy/Editor/CodeEditor/TextEditorComponent.cs
-  Packages/com.unity.ugui/Runtime/UGUI/EventSystem/InputModules/BaseInputModule.cs
-  Packages/com.unity.ide.visualstudio/Editor/KnownAssemblies.cs
-  Packages/com.unity.2d.spriteshape/Editor/SpriteShapeEditorTool.cs
-  Packages/com.unity.timeline/Editor/treeview/IPropertyKeyDataSource.cs
-  Packages/com.unity.render-pipelines.universal/Editor/UniversalAdditionalLightDataEditor.cs
-  Packages/com.unity.collab-proxy/Editor/Views/Diff/DiffTreeView.cs
-  Packages/com.unity.collab-proxy/Editor/CodeEditor/TextViewPosition.cs
-  Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/OnScreen/OnScreenStick.cs
-  Packages/com.unity.microsoft.gdk/Runtime/XBL/Achievements/XblAchievementMediaAsset.cs
-  Packages/com.unity.render-pipelines.core/Editor/Settings/RenderPipelineResourcesEditor.cs
-  Packages/com.unity.microsoft.gdk/Editor/GdkApiPreBuild.cs
-  Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Adjustment/InvertColorsNode.cs
-  Packages/com.unity.shadergraph/Editor/Generation/Descriptors/KeywordDescriptor.cs
-  Packages/com.unity.timeline/Editor/Window/TimelineWindow_Manipulators.cs
-  Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Unlit-Default.shader
-  Packages/com.unity.render-pipelines.universal/Shaders/Utils/ClusterDeferred.shader
-  Packages/com.unity.analytics/Tests/Editor/CutsceneStartTests.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Variables/VariableDeclarationsInspector.cs
-  Packages/com.unity.collab-proxy/Editor/Diff/Asset/Diff/UnityObject/NameMatchedDiffs.cs
-  Packages/com.unity.render-pipelines.core/Runtime/Utilities/BlitColorAndDepth.hlsl
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Description/GraphElementDescription.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/InspectorUtility.cs
-  Packages/com.unity.collab-proxy/Editor/CodeEditor/Search/RegexSearchStrategy.cs
-  Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature/SpeedTree9Wind.hlsl
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Plugin/BoltFlowConfiguration.cs
-  Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/PendingChangesViewPendingChangeMenu.cs
-  Packages/com.unity.learn.iet-framework/Editor/ThirdParty/SerializableCallback/InvokableCallbackBase.cs
-  Packages/com.unity.2d.animation/Editor/SkinningModule/UI/RigToolbar.cs
-  Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders/FSRCommon.hlsl
-  Packages/com.unity.microsoft.gdk/Runtime/Interop/XBL/MultiplayerManager/XblMultiplayerManagerMember.cs
-  Packages/com.unity.2d.spriteshape/Editor/AngleRangeController.cs
-  Packages/com.unity.ugui/Runtime/UGUI/UI/Core/AnimationTriggers.cs
-  Packages/com.unity.render-pipelines.universal/Tests/Editor/RenderPassCullingTests.cs
-  Packages/com.unity.searcher/Editor/Searcher/SearcherDatabaseBase.cs
-  Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/CanvasScrollView.cs
-  Packages/com.unity.2d.aseprite/Editor/Utilities/PlatformSettingsUtilities.cs
-  Packages/com.unity.render-pipelines.core/Editor/Tools/MaterialUpgrader/SpeedTree9MaterialUpgrader.cs
-  Packages/com.unity.collab-proxy/Editor/MetaPath.cs
-  Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Derivative/DDXYNode.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqCore/Changelog_1_4_0.cs
-  Packages/com.unity.2d.spriteshape/Runtime/SpriteShapeGeometryCreator.cs
-  Packages/com.unity.learn.iet-framework/Editor/Utils/MenuItems.cs
-  Packages/com.unity.shadergraph/Editor/ProviderSystem/Model/ExpressionNode.cs
-  Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/EditorBinding/TypeIconPriorityAttribute.cs
-  Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorAdjustments.cs
-  Packages/com.unity.collab-proxy/Editor/Views/Merge/Gluon/IncomingChangesSelection.cs
-  Packages/com.unity.timeline/Editor/Actions/TrackAction.cs
-  Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection/Optimization/InstanceActionInvoker_2.cs
-  Packages/com.unity.microsoft.gdk/Runtime/XBL/Achievements/XblAchievementParticipationType.cs
-  Packages/com.unity.microsoft.gdk.discovery/CHANGELOG.md
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/FlowMachineEditor.cs
-  Packages/com.unity.collections/Unity.Collections/FixedList.gen.cs
-  Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/UI/ElementTextureSizeNode.cs
-  Packages/com.unity.2d.aseprite/Editor/TextContent.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Canvases/DistributeOperation.cs
-  Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Context/IGraphContext.cs
-  Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Hardware/HardwareRayTracingAccelStruct.cs
-  Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Platform/PlatformSpecificCleanupTask.cs
-  Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Scene/RemoveAdditi
-
-Asset Pipeline Refresh (id=f7f68529322e1954e80c4004969eab9c): Total: 157.833 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=141687 ms
-		Asset DB Callback time: managed=13 ms, native=184 ms
-		Scripting: domain reloads=1, domain reload time=1843 ms, compile time=13821 ms, other=282 ms
-		Project Asset Count: scripts=2377, non-scripts=3794
-		Asset File Changes: new=2, changed=9503, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 65.865ms
-	ApplyChangesToAssetFolders: 1.693ms
-	Scan: 50980.925ms
-	Collect global state as custom dependencies: 38.701ms
-	OnSourceAssetsModified: 150.857ms
-	CategorizeScriptCompilationAssets: 326.444ms
-	ProcessAssetsWithTransientArtifactChanges: 158.736ms
-	CategorizeAssets: 159.532ms
-	CompileScripts: 13820.602ms
-	ImportOutOfDateAssets: 1252.265ms (1249.616ms without children)
-		ReloadNativeAssets: 1.389ms
-		UnloadImportedAssets: 0.157ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.098ms
-	UnloadStreamsBegin: 4.638ms
-	PersistCurrentRevisions: 2.998ms
-	GenerateScriptTypeHashes: 2.660ms
-	GenerateScriptTypeSerializationHashes: 5.312ms
-	Untracked: 90815.157ms
-
-Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Scanning for USB devices : 2.215ms
-Initializing Unity extensions:
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Bird-O
-[MODES] ModeService[default].ChangeMode(safe_mode)
-[MODES] ModeService[safe_mode].RaiseModeChanged(default, safe_mode)
-[MODES] ModeService[safe_mode].OnModeChangeUpdate
-<RI> Initializing input.
-Using Windows.Gaming.Input
-<RI> Input initialized.
-[Project] Loading completed in 222.184 seconds
-	Project init time: 				220.665 seconds
-		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.732 seconds
-		Asset Database init time: 		56.710 seconds
-		Global illumination init time: 	0.007 seconds
-		Assemblies load time: 			3.530 seconds
-		Unity extensions init time: 	0.123 seconds
-		Asset Database refresh time: 	157.833 seconds
-	Scene opening time: 			1.152 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793722848673,"processId":25552,"projectLoad":222.1841303,"projectInit":220.664563,"templateInit":0.0,"packageManagerInit":0.7322172,"assetDatabaseInit":56.7095502,"globalIlluminationInit":0.0069729,"assembliesLoad":3.5303332,"unityExtensionsInit":0.1232803,"assetDatabaseRefresh":157.8330092,"sceneOpening":1.1524797}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793722848673,"processId":25552,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=a027a9ff7eb43df4f82ee545f20fa6f9): Total: 0.150 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Licensing::Client] Successfully resolved entitlement details
-Loading style catalogs (6)
-	StyleSheets/Extensions/base/common.uss
-	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
-	StyleSheets/Northstar/common.uss
-	StyleSheets/Extensions/fonts/inter.uss
-	StyleSheets/Extensions/base/dark.uss
-	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
-[Licensing::Client] Successfully resolved entitlement details
-Request Asset Garbage Collect because used heap size increased from 2.8 MB to 444.9 MB, exceeding the threshold of 256.0 MB.
-Created GICache directory at C:/Users/aph67/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.043s, timestamps: [222.372 - 222.415]
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10190 unused Assets / (28.2 MB). Loaded Objects now: 11639.
-Memory consumption went from 441.3 MB to 413.1 MB.
-Total: 33.600400 ms (FindLiveObjects: 3.244200 ms CreateObjectMapping: 0.919300 ms MarkObjects: 14.772900 ms  DeleteObjects: 13.903800 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "eCk3SlTr"... (expires: 2026-11-03T17:49:46Z)
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=6c194b666c4419643bcdb4686e57779a): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-TrimDiskCacheJob: Current cache size 0mb
+Total cache size after purge 267472872, took 00:00:01.7085696
