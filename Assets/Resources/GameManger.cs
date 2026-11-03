@@ -14,6 +14,7 @@ public class GameMangerScript : MonoBehaviour
     public int wormsNeededForBoss = 5;
     public float timeLeft = 60f;
     private bool gameStarted = false;
+    private bool gameEnded=false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -27,7 +28,11 @@ public class GameMangerScript : MonoBehaviour
         endScreen.SetActive(false);
         //pause the game
         winScreen.SetActive(false);
+        gameStarted=false;
+        gameEnded=false;
         Time.timeScale = 0f;
+        UpdateTimer();
+        UpdateWormText();
     }
     void Update()
     {
@@ -36,13 +41,8 @@ public class GameMangerScript : MonoBehaviour
         if (timeLeft <= 0)
         {
             timeLeft = 0;
-            gameOver();
-        }
-        if (timerText != null)
-        {
-
-            timerText.text = "Time left:" + Mathf.CeilToInt(timeLeft);
-        }
+    
+        UpdateTimer();
 
     }
     public void StartGame()
