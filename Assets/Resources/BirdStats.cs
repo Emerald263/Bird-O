@@ -26,9 +26,14 @@ public class BirdStats : MonoBehaviour
         {
             hpSlider.value = currentHP;
         }
+        Debug.Log("bird hp:" + currentHP);
         if (currentHP <= 0)
         {
-            gameManger.gameOver();
+            Debug.Log("bird died");
+            if (gameManger != null)
+            {
+                gameManger.gameOver();
+            }
         }
     }
     // Update is called once per frame

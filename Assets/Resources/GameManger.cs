@@ -14,7 +14,7 @@ public class GameMangerScript : MonoBehaviour
     public int wormsNeededForBoss = 5;
     public float timeLeft = 60f;
     private bool gameStarted = false;
-    private bool gameEnded=false;
+    private bool gameEnded = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -22,14 +22,14 @@ public class GameMangerScript : MonoBehaviour
         instance = this;
     }
     void Start()
-    {// show strat screen
+    {// show start screen
         startScreen.SetActive(true);
         //hide end game screen
         endScreen.SetActive(false);
         //pause the game
         winScreen.SetActive(false);
-        gameStarted=false;
-        gameEnded=false;
+        gameStarted = false;
+        gameEnded = false;
         Time.timeScale = 0f;
         UpdateTimer();
         UpdateWormText();
@@ -38,10 +38,15 @@ public class GameMangerScript : MonoBehaviour
     {
         if (gameStarted == false)
             return;
+        if (gameEnded == true) return;
+        timeLeft -= Time.deltaTime;
         if (timeLeft <= 0)
         {
             timeLeft = 0;
-    
+            UpdateTimer();
+            gameOver();
+            return;
+        }
         UpdateTimer();
 
     }
@@ -50,20 +55,29 @@ public class GameMangerScript : MonoBehaviour
         Debug.Log("start button works");
         startScreen.SetActive(false);
         gameStarted = true;
+        gameEnded = false;
         Time.timeScale = 1f;
 
     }
     public void gameOver()
     {
+        if (gameEnded == true)
+            return;
         gameStarted = false;
+        gameEnded = true;
         endScreen.SetActive(true);
         Time.timeScale = 0f;
+        Debug.Log("Game Over");
     }
     public void WinGame()
     {
+        if (gameEnded == true)
+            return;
         gameStarted = false;
+        gameEnded = true;
         winScreen.SetActive(true);
         Time.timeScale = 0f;
+        Debug.Log("you win");
     }
     public void RestartGame()
     {
@@ -71,10 +85,21 @@ public class GameMangerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
-
     public void WormDefeated()
     {
         wormsEaten++;
+        UpdateWormText();
+    }
+    void UpdateTimer()
+    {
+        if (timerText != null)
+        {
+            timerText.text = "Time Left:" + Mathf.CeilToInt(timeLeft);
+
+        }
+    }
+    void UpdateWormText()
+    {
         if (wormText != null)
         {
             wormText.text = "Worm Eaten:" + wormsEaten;
