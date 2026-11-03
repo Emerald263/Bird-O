@@ -46661,3 +46661,778 @@ Curl error 28: Connection timed out after 300005 milliseconds
 Curl error 28: Connection timed out after 366413 milliseconds
 Curl error 28: Operation timed out after 458804 milliseconds with 0 bytes received
 Curl error 28: Operation timed out after 307299 milliseconds with 0 bytes received
+
+Asset Pipeline Refresh (id=5340fd8a1f507466485a5c06adb1a02d): Total: 0.382 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=378 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.219ms
+	InvokePackagesCallback: 2.262ms
+	ApplyChangesToAssetFolders: 1.576ms
+	Scan: 359.190ms
+	Collect global state as custom dependencies: 3.320ms
+	GatherAllCurrentPrimaryImportResultRevisions: 7.257ms
+	UnloadStreamsBegin: 1.765ms
+	UnloadStreamsEnd: 0.409ms
+	Untracked: 5.876ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 28: Connection timed out after 300006 milliseconds
+
+Asset Pipeline Refresh (id=2e8f14952611748ee8baf2ae4a0a4af4): Total: 0.345 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=342 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.629ms
+	ApplyChangesToAssetFolders: 0.918ms
+	Scan: 335.318ms
+	Collect global state as custom dependencies: 0.412ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.164ms
+	UnloadStreamsBegin: 0.242ms
+	UnloadStreamsEnd: 0.139ms
+	Untracked: 1.634ms
+
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Curl error limit reached: 100 consecutive messages printed
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1-x86_64/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/chelle/Documents/GitHub/Fall 2026 Prototypes/Bird-O
+ExitCode: 0 Duration: 7s455ms
+[1262/1720  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1716/1720  6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1717/1720  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 149 defines and 425 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[1718/1720  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1719/1720  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (7.26 seconds), 5 items updated, 1720 evaluated
+Reloading assemblies after forced synchronous recompile.
+Total cache size 267309648
+Total cache size after purge 267309648, took 00:00:00.8957931
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 13.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-11-03 10:54:26.693 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f826d2b7a40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in 13.499 seconds
+Domain Reload Profiling: 20056ms
+	BeginReloadAssembly (3525ms)
+		ExecutionOrderSort (19ms)
+		DisableScriptedObjects (1200ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (1021ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (465ms)
+	LoadAllAssembliesAndSetupDomain (2505ms)
+		LoadAssemblies (1279ms)
+		TypeCache.Refresh (62ms)
+			TypeCache.ScanAssembly (5ms)
+		AnalyzeDomain (869ms)
+			BuildScriptInfoCaches (800ms)
+			ResolveRequiredComponents (60ms)
+	FinalizeReload (13505ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			BeforeProcessingInitializeOnLoad (1664ms)
+			ProcessInitializeOnLoadAttributes (4459ms)
+			ProcessInitializeOnLoadMethodAttributes (427ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (4703ms)
+Refreshing native plugins compatible for Editor in 34.51 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=040b190910d8e4031add278839b910cb): Total: 32.696 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=15365 ms
+		Asset DB Callback time: managed=446 ms, native=53 ms
+		Scripting: domain reloads=1, domain reload time=6912 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 2.104ms
+	ApplyChangesToAssetFolders: 0.452ms
+	Scan: 897.503ms
+	Collect global state as custom dependencies: 14.549ms
+	ProcessAssetsWithTransientArtifactChanges: 14.082ms
+	CategorizeAssets: 386.778ms
+	CompileScripts: 4.898ms
+	ImportOutOfDateAssets: 13540.277ms (13531.431ms without children)
+		CollectScriptTypesHashes: 25.288ms
+		ReloadNativeAssets: 2.097ms
+		UnloadImportedAssets: 0.324ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.735ms
+		ImportSchedulerStart: 4.580ms
+	PostProcessAllAssets: 451.255ms
+		PostProcessCallbackCreateDeferredMaterials 1.405ms
+		XRBuildSystem.XRAssetImported 0.939ms
+		VCAutoAddAssetPostprocess 0.283ms
+		MonoPostProcessAllAssets: 445.429ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 121.507ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 65.777ms
+			SyncVS.PostprocessSyncProject 51.177ms
+			AssetChangedListener.OnPostprocessAllAssets 32.613ms
+			AssetPostprocessor.OnPostprocessAllAssets 21.844ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 13.099ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 8.990ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.628ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 8.496ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.457ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 4.822ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 3.945ms
+			MaterialPostprocessor.OnPostprocessAllAssets 3.734ms
+			ThemePostprocessor.OnPostprocessAllAssets 3.710ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 3.453ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 2.977ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.490ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 2.306ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.254ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.212ms
+			GdkAssemblyAssetProcessor.OnPostprocessAllAssets 1.787ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.602ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.539ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.530ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.507ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.368ms
+			PostProcessor.OnPostprocessAllAssets 1.102ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.102ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.866ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.809ms
+			AssetEvents.OnPostprocessAllAssets 0.785ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.783ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.765ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.752ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.746ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.671ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.602ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.599ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.586ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.578ms
+			AssetProcessor.OnPostprocessAllAssets 0.450ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.338ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.318ms
+	PostAssetChangesProfiler: 46.140ms
+	PersistCurrentRevisions: 0.284ms
+	GenerateScriptTypeHashes: 5.741ms
+	GenerateScriptTypeSerializationHashes: 10.736ms
+	Untracked: 7159.680ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.065370 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            249.417 ms
+	Integration:            5638.519 ms
+	Integration of assets:  0.517 ms
+	Thread Wait Time:       -0.468 ms
+	Total Operation Time:   5887.985 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Hunger73.20569
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Hunger53.11385
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Hunger10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Hunger10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Hunger10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            7.332 ms
+	Integration:            60.946 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   68.314 ms
+Unloading 95 unused Assets / (99.8 KB). Loaded Objects now: 12848.
+Memory consumption went from 466.1 MB to 466.0 MB.
+Total: 73.496375 ms (FindLiveObjects: 1.743000 ms CreateObjectMapping: 0.598500 ms MarkObjects: 69.608125 ms  DeleteObjects: 1.168334 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+2026-11-03 10:55:42.207 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:42.222 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:45.976 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:45.978 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+[LAYOUT] About to load /Users/chelle/Library/Preferences/Unity/Editor-5.x/Layouts/default/Default.wlt, keepMainWindow=True
+2026-11-03 10:55:51.105 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.106 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.106 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.106 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.106 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.106 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.405 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.405 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.417 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.417 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.418 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:55:51.418 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+[LAYOUT] About to save layout /Users/chelle/Documents/GitHub/Fall 2026 Prototypes/Bird-O/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/chelle/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+[Worker0] Imported GUID: ae4135355ece1524389194bbb1dddf1e - Path: Assets/Prefabs/Worm.prefab - Importer: PreviewImporter -> (ImportResultId: '1c4d48a56e9bd832157719444acfe1a4') in 1.793695792 seconds
+[Worker0] Imported GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/Settings/DefaultVolumeProfile.asset - Importer: PreviewImporter -> (ImportResultId: '1f1357d2047325110a5c07042b90c8a1') in 0.030093041 seconds
+[Worker0] Imported GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: PreviewImporter -> (ImportResultId: '33b77098b488f90349e3876cf8db782a') in 0.039640042 seconds
+[Worker0] Imported GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: PreviewImporter -> (ImportResultId: '743047d4270e5fcb227a0d9329d13497') in 0.036262416 seconds
+[Worker0] Imported GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: PreviewImporter -> (ImportResultId: '47771fda6bf8cc9f900917a124b31344') in 0.03521125 seconds
+[Worker1] Imported GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: PreviewImporter -> (ImportResultId: 'f88f4a8daae487a62ef2cf956306262f') in 0.564059416 seconds
+[Worker1] Imported GUID: 49ba57cdb4db34d1098e3104407d91ad - Path: Assets/Welcome/NewWelcomePage.asset - Importer: PreviewImporter -> (ImportResultId: 'ca599cd7d4d651eb479729349a7f2856') in 0.098483875 seconds
+[Worker0] Imported GUID: 474ce57d7c1704418af05d72d996ae5e - Path: Assets/Welcome/2d-template.png - Importer: PreviewImporter -> (ImportResultId: 'f339907f6dac8ff01857920a2326c563') in 0.149066 seconds
+[Worker0] Imported GUID: c4e190310040447a0bce900c4ca7e605 - Path: Assets/Welcome/Unity.2D.Welcome.asmdef - Importer: PreviewImporter -> (ImportResultId: 'e27fc0489b6f726211414876c8f457b5') in 0.035223 seconds
+[Worker1] Imported GUID: b3f6a21cd2a544cf8acfee7cf2793670 - Path: Assets/Welcome/TutorialProjectSettings.asset - Importer: PreviewImporter -> (ImportResultId: '76dd650ac1e5ec68d1035852a452c351') in 0.111656416 seconds
+[Worker0] Imported GUID: 3becb391d378c4f35bea7e2cfd89f1d5 - Path: Assets/Welcome/Welcome2DScript.asset - Importer: PreviewImporter -> (ImportResultId: 'c4670ba37263c129727442e0a9f25605') in 0.031259958 seconds
+Starting new worker id: 2 with log in /Users/chelle/Documents/GitHub/Fall 2026 Prototypes/Bird-O/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: b9ae429aca254fa41966db24b9e53232 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/BackgroundMesh.fbx - Importer: PreviewImporter -> (ImportResultId: '879ea6af5f3331a4845fe318a7dbe2c4') in 1.885782792 seconds
+[Worker0] Imported GUID: fdad9d952ae84cafb74c63f2e694d042 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab - Importer: PreviewImporter -> (ImportResultId: '6334714f544dc0efddf31d36a2dee5ff') in 0.141518959 seconds
+[Worker0] Imported GUID: b28fa67a0ff82c5478f27368dc627683 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFixture.fbx - Importer: PreviewImporter -> (ImportResultId: '1ba1dd3cd00fabff079f321154d6f40c') in 0.332200583 seconds
+[Worker1] Imported GUID: 9e1c97fc44f9a8744b61b58f72c56de4 - Path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx - Importer: PreviewImporter -> (ImportResultId: '81ea89c6ffdae42e9cd34437648dac66') in 3.372503834 seconds
+[Worker1] Imported GUID: 7ef2cf71ad164fe479662ae612dff99e - Path: Packages/com.unity.shadergraph/GraphTemplates/Custom Render Texture.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'a7dda82cf04499af672fe4127531052a') in 0.472639125 seconds
+[Worker0] Imported GUID: 80aa867ac363ac043847b06ad71604cd - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph - Importer: PreviewImporter -> (ImportResultId: '86a4836f43c663fc3a0f0d269813bb12') in 1.503379625 seconds
+[Worker1] Imported GUID: dc36b3fdc14f47ebb36fd484a67e268a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset - Importer: PreviewImporter -> (ImportResultId: '18b564fa2ebea8f07e6d699cc22436b2') in 0.403477667 seconds
+[Worker1] Imported GUID: 3b5cc91c3bf8cf74391252247f52fb59 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat - Importer: PreviewImporter -> (ImportResultId: '8f9c7c93f5f710ebd17fe893dc4a7856') in 0.356535916 seconds
+[Worker1] Imported GUID: 4f1ef37ae953c484bbc5d5e4049147e5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Black.mat - Importer: PreviewImporter -> (ImportResultId: '13c8226baf6ae70142df0e0b9adf57ff') in 0.103035 seconds
+[Worker1] Imported GUID: c116b7497ab8ca34c9188965d4295e27 - Path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab - Importer: PreviewImporter -> (ImportResultId: '5aec6f84909d68247c1d77701b9ff1e3') in 0.0824065 seconds
+[Worker1] Imported GUID: c0583b4e855c74b8c82e7b9b5efb5ce9 - Path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab - Importer: PreviewImporter -> (ImportResultId: '683746c028a1c7f785e3416c1b7e1305') in 0.128849875 seconds
+[Worker0] Imported GUID: 6522f30e342599e4e9dd4cc2cc03c830 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat - Importer: PreviewImporter -> (ImportResultId: 'f68a12169b4f087b8d33e85fb8cf5d6a') in 1.109065834 seconds
+[Worker0] Imported GUID: b06f0e6c1dfa4356ac918da1bb32c603 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab - Importer: PreviewImporter -> (ImportResultId: '190662b25a69052adb46e1bb170372b9') in 0.194067042 seconds
+[Worker1] Imported GUID: f2dcf029949142e28b974630369c8b4e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat - Importer: PreviewImporter -> (ImportResultId: 'f648bae33074174299a25d923f421974') in 0.804416833 seconds
+[Worker1] Imported GUID: 1dbf28c1bb322474d981b2dc555e28b0 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFloorSpotlight.fbx - Importer: PreviewImporter -> (ImportResultId: 'e7f700f36089e91f635df253c68c3566') in 0.205579542 seconds
+[Worker1] Imported GUID: f629c6e43dba4bf38cb74d8860150664 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat - Importer: PreviewImporter -> (ImportResultId: 'e4996785452de615f9e0ef0572ce0269') in 0.774690667 seconds
+[Worker1] Imported GUID: e6b9b44320f4448d9d5e0ee634259966 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat - Importer: PreviewImporter -> (ImportResultId: 'cd3744dc351d56ce77c546ecc70ed794') in 0.097616208 seconds
+[Worker1] Imported GUID: 1c7762c9bce5f4ab7b060decb9e3002d - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx - Importer: PreviewImporter -> (ImportResultId: '4f9eb41c0c7565db9f87af4ffbb67a3a') in 0.218628667 seconds
+[Worker1] Imported GUID: 9b4e681081e2b4c469111bb649e2f7ee - Path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'c4b6ac865c7c22daa25219729f86d0d9') in 0.079099417 seconds
+[Worker1] Imported GUID: a6e39ced0ea046bcb636c3f0b2e2a745 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab - Importer: PreviewImporter -> (ImportResultId: '9b9b7c42b29012eb224e8b9f4cbcc0cc') in 0.162351667 seconds
+[Worker0] Imported GUID: aee84ce0dab81b049bb88017d78a63cd - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Lit Full.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'f6ee26dfa174e88823a4b534ad092f36') in 3.339116333 seconds
+[Worker1] Imported GUID: 25a0ebb4827f3cc47a1af2c79005f65b - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/1_2D Sprite Unlit.shadergraph - Importer: PreviewImporter -> (ImportResultId: '5be0eb0f56d22b91cb645e308aa058da') in 1.369259875 seconds
+[Worker0] Imported GUID: 30dc370b164eefc43b95744fc796dad0 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf - Importer: PreviewImporter -> (ImportResultId: '4d372e147897e483f34eceebea8ab14e') in 0.386592959 seconds
+[Worker0] Imported GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter -> (ImportResultId: '3805763508226773e4135fc2738e88d5') in 2.271634125 seconds
+[Worker1] Imported GUID: 30fa68ce467463643a86b839ca0eb195 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph - Importer: PreviewImporter -> (ImportResultId: '19eb9b1e32a78c7fbb9b66f0fdb3154e') in 2.478530541 seconds
+[Worker0] Imported GUID: 749b9069dc4742c5bfa5c74644049926 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat - Importer: PreviewImporter -> (ImportResultId: '39cc8cd9ead08838075a286722305568') in 0.558907333 seconds
+[Worker0] Imported GUID: 2a29e27936eb547458f646f71125b264 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf - Importer: PreviewImporter -> (ImportResultId: 'ec6d2147cb230c71c8a7b91efb87f44c') in 0.090470791 seconds
+[Worker0] Imported GUID: bfad0aba0faa90547b68abd10bb6be86 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/2_2D Sprite Custom Lit.shadergraph - Importer: PreviewImporter -> (ImportResultId: '26aa24d706d8897401c76b8b0c84f49f') in 1.213162292 seconds
+[Worker1] Imported GUID: 3739e562a03fc0b4982d8aa66cc50865 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph - Importer: PreviewImporter -> (ImportResultId: '8181d8935439eb5c2651b31b0fe31eac') in 2.095367041 seconds
+[Worker1] Imported GUID: 86ae7de409eb54f619fb1328e4d42480 - Path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab - Importer: PreviewImporter -> (ImportResultId: '15b8ae1356a721331711371c2a588990') in 0.0628225 seconds
+[Worker0] Imported GUID: 39857cfad1651644682ff5b772e6e697 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx - Importer: PreviewImporter -> (ImportResultId: '4368257e60d8878aaa92cc30327d2726') in 0.320430333 seconds
+[Worker0] Imported GUID: 92f845725428c954b878da352f657fe5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Emissive.mat - Importer: PreviewImporter -> (ImportResultId: '60aec88a09c20047c34bfcb6a4ae2b0e') in 0.071712167 seconds
+[Worker1] Imported GUID: 71b11355001648444b41d17fd36c150d - Path: Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab - Importer: PreviewImporter -> (ImportResultId: '332f62d6a83e7b5bcb0e31299081b8ea') in 0.114322167 seconds
+[Worker1] Imported GUID: 9618d41bb71f74048bb6cace8785b93d - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Unlit Basic.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'cd87fec974c6bbf375331ea33d95d1fc') in 0.104568125 seconds
+[Worker0] Imported GUID: 4e8732d4875cc0647b52b55a218072b6 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx - Importer: PreviewImporter -> (ImportResultId: '36de61e849dc6e5f2133398a71195cdb') in 0.17561425 seconds
+[Worker1] Imported GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: PreviewImporter -> (ImportResultId: '4bb948392475f9107a4476f6271c684e') in 0.071416625 seconds
+[Worker0] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: PreviewImporter -> (ImportResultId: 'f01e6856bc6f3baa5fa3f4aa1c6dc690') in 0.110686042 seconds
+[Worker0] Imported GUID: 947a44964e53bf0448ff698b2a2219c0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat - Importer: PreviewImporter -> (ImportResultId: '5bc9a07397faa8eb97718df48b788cdc') in 0.83667475 seconds
+[Worker0] Imported GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter -> (ImportResultId: '971618f08bbe322804791caf6596e108') in 0.126147458 seconds
+[Worker0] Imported GUID: 2019d78ad3d1c5c4a8d309a857ca449f - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Lit Basic.shadergraph - Importer: PreviewImporter -> (ImportResultId: '901e24f36c169d98cfd673b5a6258a04') in 0.181224791 seconds
+[Worker0] Imported GUID: d75b8f41e959450c84ac6e967084d3e1 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat - Importer: PreviewImporter -> (ImportResultId: '18b798b89b4a4888281400dec6cdda63') in 0.739053375 seconds
+[Worker0] Imported GUID: d93c1bc57fdf1ac4dad1bf04fac05464 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf - Importer: PreviewImporter -> (ImportResultId: 'c028509e5b00ce70962856aef3a30a63') in 0.072619459 seconds
+[Worker1] Imported GUID: 5c81372d981403744adbdda4433c9c11 - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph - Importer: PreviewImporter -> (ImportResultId: '182d2d0dff7e381aee19467dbb9edfd9') in 3.188798084 seconds
+[Worker0] Imported GUID: bde135b320597544b9ac325092409f8b - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/0_2D Sprite Lit.shadergraph - Importer: PreviewImporter -> (ImportResultId: '7c8eab50fdd455d90921d72d5628834f') in 1.219604083 seconds
+[Worker1] Imported GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: PreviewImporter -> (ImportResultId: 'b4a9b265a60a978c8a42346b5a34ac0b') in 0.143246083 seconds
+[Worker0] Imported GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter -> (ImportResultId: '08e1915e314a2f44ccc12253d2c77da8') in 0.076087917 seconds
+[Worker0] Imported GUID: 8a239b3da89050c4e89ac06b168fc684 - Path: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FallbackMaterial.mat - Importer: PreviewImporter -> (ImportResultId: '2d5dd2f4967fc000bcbc247a33a7028c') in 0.060384625 seconds
+[Worker1] Imported GUID: 20be25aac4e22ee49a7db76fb3df6de2 - Path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx - Importer: PreviewImporter -> (ImportResultId: '25541aba4717538fd88dc1df46a5fd8f') in 0.140210667 seconds
+[Worker0] Imported GUID: 31d0dcc6f2dd4e4408d18036a2c93862 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat - Importer: PreviewImporter -> (ImportResultId: '17080634fe5c180a5dcd3a8e91d5143a') in 0.066403166 seconds
+[Worker0] Imported GUID: f4e195ac1e204eff960149d1cb34e18c - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat - Importer: PreviewImporter -> (ImportResultId: 'bebd9a62794461d2e902692bb944df73') in 0.067458458 seconds
+[Worker1] Imported GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter -> (ImportResultId: '55d4ce19a4151a5d2d2b05b4fcc9f66c') in 0.119027875 seconds
+[Worker1] Imported GUID: 0e9d5a909a1f7e84882a534d0d11e49f - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'd89959c5a9b2d2251d05ec32adf28bbe') in 2.553141583 seconds
+[Worker1] Imported GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter -> (ImportResultId: 'e59bc20fe2f3e4f711e225d45ba64672') in 0.08893625 seconds
+[Worker0] Imported GUID: af66091e0eca0c04a9c3584ae867418a - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Particle Unlit.shadergraph - Importer: PreviewImporter -> (ImportResultId: 'b9d48c80cc71c698cd337d44c011e8b4') in 2.7825505 seconds
+[Worker0] Imported GUID: 1716ff8c1e51af14280cc97fbcba3b11 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Decal Material Volume.shadergraph - Importer: PreviewImporter -> (ImportResultId: '5291fbd8cda4321c5bf77ca8f2349c92') in 0.076719667 seconds
+[Worker0] Imported GUID: 19a9abb883540be48b75b951a927ae03 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf - Importer: PreviewImporter -> (ImportResultId: 'c881bbdc0c16d47fecd0e8b350c84cc8') in 0.081455833 seconds
+Worker ready: AssetImportWorkerHW2 2
+[Worker1] Imported GUID: a680d9a9f8b66514abbfd3ae1c8f77f7 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/2_Particle Lit.shadergraph - Importer: PreviewImporter -> (ImportResultId: '5bcded01c86f3df8a97341a1a50fa1c7') in 2.936830334 seconds
+[Worker0] Imported GUID: 6751ce1a4611b3940812c13a6847d94f - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat - Importer: PreviewImporter -> (ImportResultId: '2feb55ee1266e406d0162b61c86bf0d7') in 3.767797292 seconds
+2026-11-03 10:57:40.639 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:57:40.644 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:57:40.849 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:57:40.852 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=b971515cf69a545a39b2be325a8cbfee): Total: 0.332 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=330 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2377, non-scripts=3792
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.494ms
+	ApplyChangesToAssetFolders: 0.488ms
+	Scan: 300.235ms
+	Collect global state as custom dependencies: 0.560ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.354ms
+	UnloadStreamsBegin: 21.617ms
+	UnloadStreamsEnd: 0.089ms
+	Untracked: 0.955ms
+
+[Worker0] Imported GUID: 191d414c0afbe4b0f9aa52b39423401d - Path: Assets/Resources/BirdStats.cs - Importer: PreviewImporter -> (ImportResultId: '55a30ed3b1c729e7ed142d4e9f65bb39') in 0.035300208 seconds
+2026-11-03 10:58:40.594 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:58:40.598 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:18.374 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f829af17c80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-03 10:59:18.484 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:18.490 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:21.218 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f829b0563b0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-03 10:59:25.233 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:25.252 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:53.576 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 10:59:53.588 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+SpriteAtlasPacking completed in 0.022148 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.270 ms
+	Integration:            1710.668 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   1716.975 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.543 ms
+	Integration:            82.265 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   86.855 ms
+Unloading 181 unused Assets / (9.3 MB). Loaded Objects now: 12952.
+Memory consumption went from 489.1 MB to 479.8 MB.
+Total: 107.495459 ms (FindLiveObjects: 1.923625 ms CreateObjectMapping: 0.701542 ms MarkObjects: 88.621209 ms  DeleteObjects: 15.805500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+2026-11-03 11:00:12.817 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f828a29aa80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-03 11:00:12.841 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:00:12.845 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:00:14.895 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f828a128600 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+SpriteAtlasPacking completed in 0.008774 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.129 ms
+	Integration:            1664.368 ms
+	Integration of assets:  0.027 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1667.529 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.973 ms
+	Integration:            45.350 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   47.338 ms
+Unloading 20 unused Assets / (1.6 MB). Loaded Objects now: 12953.
+Memory consumption went from 479.3 MB to 477.7 MB.
+Total: 53.021833 ms (FindLiveObjects: 1.132291 ms CreateObjectMapping: 0.347958 ms MarkObjects: 51.060000 ms  DeleteObjects: 0.118250 ms)
+
+SpriteAtlasPacking completed in 0.011412 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.704 ms
+	Integration:            1710.182 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   1713.914 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.959 ms
+	Integration:            44.795 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   46.784 ms
+Unloading 22 unused Assets / (0.8 MB). Loaded Objects now: 12978.
+Memory consumption went from 478.0 MB to 477.1 MB.
+Total: 53.532666 ms (FindLiveObjects: 1.139041 ms CreateObjectMapping: 0.363292 ms MarkObjects: 51.596792 ms  DeleteObjects: 0.083875 ms)
+
+2026-11-03 11:01:06.300 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f829abd28e0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-03 11:01:06.318 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:01:06.322 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:01:07.954 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:01:07.958 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:01:08.312 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f829b287b90 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+SpriteAtlasPacking completed in 0.011350 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.070 ms
+	Integration:            1625.928 ms
+	Integration of assets:  0.028 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1630.031 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.442 ms
+	Integration:            81.337 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   84.800 ms
+Unloading 20 unused Assets / (2.2 MB). Loaded Objects now: 12952.
+Memory consumption went from 479.2 MB to 477.0 MB.
+Total: 68.317875 ms (FindLiveObjects: 1.666417 ms CreateObjectMapping: 0.516916 ms MarkObjects: 65.539916 ms  DeleteObjects: 0.150708 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+2026-11-03 11:01:39.464 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f829b029ca0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+SpriteAtlasPacking completed in 0.009355 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.024 ms
+	Integration:            1627.085 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1630.139 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Hunger86.63226
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.685 ms
+	Integration:            43.846 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   45.545 ms
+Unloading 22 unused Assets / (0.8 MB). Loaded Objects now: 12954.
+Memory consumption went from 477.8 MB to 477.0 MB.
+Total: 50.017083 ms (FindLiveObjects: 1.202958 ms CreateObjectMapping: 0.352833 ms MarkObjects: 48.050041 ms  DeleteObjects: 0.082208 ms)
+
+2026-11-03 11:01:57.823 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:01:57.827 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:02:02.961 Unity[71167:51467693] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f82893f84f0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-03 11:02:07.609 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-11-03 11:02:07.620 Unity[71167:51467693] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+SpriteAtlasPacking completed in 0.010524 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.532 ms
+	Integration:            2972.449 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   2977.021 ms
+start button works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameMangerScript:StartGame () (at Assets/Resources/GameManger.cs:50)
+UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:727)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:486)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs:2405)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@23caec89ae27/Runtime/UGUI/EventSystem/EventSystem.cs:527)
+
+(Filename: Assets/Resources/GameManger.cs Line: 50)
+
+Hunger89.22537
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerBar:AddHunger (single) (at Assets/Resources/HungerBar.cs:56)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:20)
+
+(Filename: Assets/Resources/HungerBar.cs Line: 56)
+
+bird ate worm
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HungerPickup:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Resources/HungerPickup.cs:21)
+
+(Filename: Assets/Resources/HungerPickup.cs Line: 21)
+
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.089 ms
+	Integration:            108.678 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   112.796 ms
+Unloading 22 unused Assets / (1.1 MB). Loaded Objects now: 12954.
+Memory consumption went from 480.0 MB to 478.9 MB.
+Total: 149.669375 ms (FindLiveObjects: 3.476041 ms CreateObjectMapping: 1.655958 ms MarkObjects: 143.424000 ms  DeleteObjects: 0.542334 ms)
+
