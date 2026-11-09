@@ -17,6 +17,7 @@ public class BirdStats : MonoBehaviour
             hpSlider.maxValue = maxHP;
             hpSlider.value = currentHP;
         }
+
     }
     public void TakeDamage(int damage)
     {
@@ -26,16 +27,15 @@ public class BirdStats : MonoBehaviour
         {
             hpSlider.value = currentHP;
         }
+
         Debug.Log("bird hp:" + currentHP);
         if (currentHP <= 0)
         {
             Debug.Log("bird died");
-            if (gameManger != null)
+            if (GameMangerScript.instance != null)
             {
-                gameManger.gameOver();
+                GameMangerScript.instance.gameOver();
             }
         }
     }
-    // Update is called once per frame
-
 }

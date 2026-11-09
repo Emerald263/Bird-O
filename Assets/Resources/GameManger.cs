@@ -26,10 +26,10 @@ public class GameMangerScript : MonoBehaviour
         startScreen.SetActive(true);
         //hide end game screen
         endScreen.SetActive(false);
-        //pause the game
         winScreen.SetActive(false);
         gameStarted = false;
         gameEnded = false;
+        //pause the game
         Time.timeScale = 0f;
         UpdateTimer();
         UpdateWormText();
@@ -63,11 +63,11 @@ public class GameMangerScript : MonoBehaviour
     {
         if (gameEnded == true)
             return;
+        Debug.Log("Game over screen works");
         gameStarted = false;
         gameEnded = true;
         endScreen.SetActive(true);
         Time.timeScale = 0f;
-        Debug.Log("Game Over");
     }
     public void WinGame()
     {
@@ -81,6 +81,7 @@ public class GameMangerScript : MonoBehaviour
     }
     public void RestartGame()
     {
+        Debug.Log("Restart button works");
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
