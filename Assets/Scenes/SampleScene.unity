@@ -3493,6 +3493,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3160579192795960035, guid: 7ab9613e340614417b425ed4b5fd51a2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7289331406931795346, guid: 7ab9613e340614417b425ed4b5fd51a2, type: 3}
       propertyPath: m_Name
       value: WormPrefab
